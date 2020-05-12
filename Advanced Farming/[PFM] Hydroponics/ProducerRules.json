@@ -3,18 +3,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 472, //Parsnip Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
 		"MinutesUntilReady": 6400,
-		"SubtractTimeOfDay": true,
         "OutputIdentifier": 24, //Parsnip Crop
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -23,7 +13,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -33,7 +24,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -43,31 +35,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 472, //Parsnip Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 24, //Parsnip Crop
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 6, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -75,7 +46,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -85,7 +57,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -95,9 +68,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
-			},
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
@@ -108,26 +82,18 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 251, //Tea Sapling
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 44800,
         "OutputIdentifier": 815, //Tea Leaves
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 44800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -135,9 +101,10 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 44800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -145,41 +112,21 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 44800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 251, //Tea Sapling
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 815, //Tea Leaves
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 42,
+				"MinutesUntilReady": 44800,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -187,9 +134,10 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 42,
+				"MinutesUntilReady": 44800, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -197,9 +145,10 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 28, 
+				"OutputMaxStack": 42,
+				"MinutesUntilReady": 44800, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -212,26 +161,18 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 473, //Bean Starter
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 188, //Green Beans
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
+		"MinutesUntilReady": 40000‬,
+        "OutputIdentifier": 188, //Green Beans 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -239,9 +180,10 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 40000‬,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -249,41 +191,21 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 40000‬, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 473, //Bean Starter
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 188, //Green Beans
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 40000‬,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -291,9 +213,10 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 40000‬, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -301,9 +224,10 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 35,
+				"MinutesUntilReady": 40000‬, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -316,17 +240,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 474, //Cauliflower Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 20800‬,
         "OutputIdentifier": 190, //Cauliflower
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -335,7 +250,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -345,7 +261,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -355,31 +272,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 474, //Cauliflower Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 190, //Cauliflower
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -387,7 +283,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -397,7 +294,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -407,7 +305,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800‬,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -420,17 +319,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 475, //Potato Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 9600,
         "OutputIdentifier": 192, //Potatoes
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -439,7 +329,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -449,7 +340,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -459,31 +351,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 475, //Potato Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 192, //Potatoes
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -491,7 +362,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -501,7 +373,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -511,7 +384,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -524,17 +398,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 476, //Garlic Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 248, //Garlic
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
+		"MinutesUntilReady": 6400,
+        "OutputIdentifier": 248, //Garlic 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -543,7 +408,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -553,7 +419,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -563,31 +430,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 476, //Garlic Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 248, //Garlic
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -595,7 +441,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -605,7 +452,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -615,7 +463,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -628,17 +477,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 477, //Kale Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 9600,
         "OutputIdentifier": 250, //Kale
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -647,7 +487,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -657,7 +498,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -667,31 +509,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 477, //Kale Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 250, //Kale
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -699,7 +520,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -709,7 +531,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -719,7 +542,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -732,17 +556,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 480, //Tomato Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 43200,
         "OutputIdentifier": 256, //Tomatoes
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -751,7 +566,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -761,7 +577,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -771,31 +588,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 480, //Tomato Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 256, //Tomatoes
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -803,7 +599,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -813,7 +610,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -823,7 +621,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -836,17 +635,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 483, //Wheat Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 6400,
         "OutputIdentifier": 262, //Wheat
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -855,7 +645,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -865,7 +656,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -875,31 +667,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 483, //Wheat Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 262, //Wheat
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -907,7 +678,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -917,7 +689,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -927,7 +700,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -940,17 +714,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 484, //Radish Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 9600,
         "OutputIdentifier": 264, //Radish
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -959,7 +724,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -969,7 +735,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -979,31 +746,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 484, //Radish Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 264, //Radish
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1011,7 +757,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1021,7 +768,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1031,7 +779,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1044,17 +793,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 485, //Red Cabbage Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 14400,
         "OutputIdentifier": 266, //Red Cabbage
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1063,7 +803,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1073,7 +814,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1083,31 +825,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 484, //Red Cabbage Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 266, //Red Cabbage
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1115,7 +836,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1125,7 +847,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1135,7 +858,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1148,17 +872,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 487, //Corn Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 88000,
         "OutputIdentifier": 270, //Corn
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1167,7 +882,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1177,7 +893,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1187,31 +904,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 487, //Corn Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 270, //Corn
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1219,7 +915,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1229,7 +926,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1239,7 +937,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 88000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1252,17 +951,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 473, //Rice Shoot
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 9600,
         "OutputIdentifier": 271, //Unmilled Rice
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1271,7 +961,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1281,7 +972,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1291,31 +983,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 473, //Rice Shoot
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 271, //Unmilled Rice
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1323,7 +994,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1333,7 +1005,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1343,7 +1016,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1356,17 +1030,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 488, //Eggplant Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 8000,
         "OutputIdentifier": 272, //Eggplant
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1375,7 +1040,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1385,7 +1051,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1395,31 +1062,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 488, //Eggplant Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 272, //Eggplant
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1427,7 +1073,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1437,7 +1084,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1447,7 +1095,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 8000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1460,17 +1109,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 489, //Artichoke Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 12800,
         "OutputIdentifier": 274, //Artichoke
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1479,7 +1119,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1489,7 +1130,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1499,31 +1141,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 489, //Artichoke Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 274, //Artichoke
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1531,7 +1152,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1541,7 +1163,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1551,7 +1174,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1564,17 +1188,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 490, //Pumpkin Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 20800,
         "OutputIdentifier": 276, //Pumpkin
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1583,7 +1198,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1593,7 +1209,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1603,31 +1220,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 490, //Pumpkin Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 276, //Pumpkin
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1635,7 +1231,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1645,7 +1242,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1655,7 +1253,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1668,17 +1267,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 491, //Bok Choy Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 6400,
         "OutputIdentifier": 278, //Bok Choy
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1687,7 +1277,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1697,7 +1288,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1707,31 +1299,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 491, //Bok Choy Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 278, //Bok Choy
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1739,7 +1310,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1749,7 +1321,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1759,7 +1332,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1772,17 +1346,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 492, //Yam Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 16000,
         "OutputIdentifier": 280, //Yam
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1791,7 +1356,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1801,7 +1367,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1811,31 +1378,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 492, //Yam Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 280, //Yam
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1843,7 +1389,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1853,7 +1400,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1863,7 +1411,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1876,17 +1425,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 494, //Beet Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 9600,
         "OutputIdentifier": 284, //Beet
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1895,17 +1435,19 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
 				//Gold Output
 				"OutputProbability": 0.52, 
+				"RequiredFuel": { 368: 1 },
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1915,31 +1457,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 494, //Beet Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 284, //Beet
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -1947,7 +1468,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1957,7 +1479,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1967,7 +1490,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1980,17 +1504,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 299, //Amaranth Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 11200,
         "OutputIdentifier": 300, //Amaranth
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1999,7 +1514,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2009,7 +1525,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2019,31 +1536,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200,
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 299, //Amaranth Seeds
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 300, //Amaranth
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -2051,7 +1547,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2061,7 +1558,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2071,7 +1569,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2084,17 +1583,8 @@
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 302, //Hops Starter
 		"InputStack": 4,
-		"FuelIdentifier": 368, //Basic Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 43200,
         "OutputIdentifier": 304, //Hops
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2103,7 +1593,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2113,7 +1604,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2123,31 +1615,10 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 302, //Hops Starter
-		"InputStack": 4,
-		"FuelIdentifier": 369, //Quality Fertilizer
-        "FuelStack": 1,
-		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 304, //Hops
-		"OutputName": null,
-		"PreserveType": null,
-		"InputPriceBased": false,
-		"KeepInputQuality": false,
-		"OutputQuality": 0, 
-		"OutputStack": 4, 
-		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
@@ -2155,7 +1626,8 @@
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2165,7 +1637,8 @@
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2175,7 +1648,8 @@
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, 
+				"MinutesUntilReady": 43200,
+				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
