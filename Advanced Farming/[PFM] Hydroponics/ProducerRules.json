@@ -1,12 +1,12 @@
 ﻿[
 	{ 
 		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 472, //Parsnip
+		"InputIdentifier": 472, //Parsnip Seeds
 		"InputStack": 4,
-		"FuelIdentifier": 368,
+		"FuelIdentifier": 368, //Basic Fertilizer
         "FuelStack": 1,
 		"MinutesUntilReady": 4800,
-        "OutputIdentifier": 24,
+        "OutputIdentifier": 24, //Parsnip Crop
 		"OutputName": null,
 		"PreserveType": null,
 		"InputPriceBased": false,
@@ -14,33 +14,88 @@
 		"OutputQuality": 0, 
 		"OutputStack": 4, 
 		"OutputMaxStack": 5, 
-		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the additional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+		"AdditionalOutputs": [ 
 			{
-				"OutputProbability": 0.2, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
-				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
-				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
 			},
 			{
-				"OutputProbability": 0.52, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
-				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				//Gold Output
+				"OutputProbability": 0.52, 
+				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
-				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
 			},
 			{
-				"OutputProbability": 0.72, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
-				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				//Silver Output
+				"OutputProbability": 0.72, 
+				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
-				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
-				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	}
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 472, //Parsnip Seeds
+		"InputStack": 4,
+		"FuelIdentifier": 369, //Quality Fertilizer
+        "FuelStack": 1,
+		"MinutesUntilReady": 4800,
+        "OutputIdentifier": 24, //Parsnip Crop
+		"OutputName": null,
+		"PreserveType": null,
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 4, 
+		"OutputMaxStack": 6, 
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.77, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.92, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 4800, 
+				"RequiredOutdoors": false, 
 			},
 		],
 		"Sounds": [ "Ship" ], 
