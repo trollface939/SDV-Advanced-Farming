@@ -1,0 +1,63 @@
+{
+    "Name": "Hydroponic Bed",
+    "Description": "A raised bed that has artificial soil to allow for full control of nutrients.",
+    "Price": 100,
+    "ProvidesLight": false,
+    "CanPurchase": true, 
+    "PurchaseFrom": "Robin",
+    "PurchasePrice": 400,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 330,
+            "Count": 2,
+        },
+		{
+            "Object": 388,
+            "Count": 10,
+        },
+		{
+            "Object": 178,
+            "Count": 3,
+        },
+        {
+            "Object": 368, 
+            "Count": 1,
+        }, ],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 2000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Hydroponic Bed", //Spansih
+            "ko": "Hydroponic Bed", //Korean
+            "de": "Hydroponic Bed", //German
+            "fr": "Hydroponic Bed", //French
+            "hu": "Hydroponic Bed", //Hungarian
+            "it": "Hydroponic Bed", //Italian
+            "ja": "Hydroponic Bed", //Japanese
+            "pt": "Hydroponic Bed", //Portuguese
+            "ru": "Hydroponic Bed", //Russian
+            "tr": "Hydroponic Bed", //Turkish
+            "zh": "Hydroponic Bed", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A raised bed that has artificial soil to allow for full control of nutrients.", //Spansih
+            "ko": "A raised bed that has artificial soil to allow for full control of nutrients.", //Korean
+            "de": "A raised bed that has artificial soil to allow for full control of nutrients.", //German
+            "fr": "A raised bed that has artificial soil to allow for full control of nutrients.", //French
+            "hu": "A raised bed that has artificial soil to allow for full control of nutrients.", //Hungarian
+            "it": "A raised bed that has artificial soil to allow for full control of nutrients.", //Italian
+            "ja": "A raised bed that has artificial soil to allow for full control of nutrients.", //Japanese
+            "pt": "A raised bed that has artificial soil to allow for full control of nutrients.", //Portuguese
+            "ru": "A raised bed that has artificial soil to allow for full control of nutrients.", //Russian
+            "tr": "A raised bed that has artificial soil to allow for full control of nutrients.", //Turkish
+            "zh": "A raised bed that has artificial soil to allow for full control of nutrients.", //Chinese (Simplified)
+        }
+    }

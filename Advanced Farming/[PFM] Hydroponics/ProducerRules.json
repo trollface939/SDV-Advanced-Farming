@@ -1,0 +1,54 @@
+﻿[
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 472, //Parsnip
+		"InputStack": 4,
+		"FuelIdentifier": 368,
+        "FuelStack": 1,
+		"MinutesUntilReady": 4800,
+        "OutputIdentifier": 24,
+		"OutputName": null,
+		"PreserveType": null,
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 4, 
+		"OutputMaxStack": 5, 
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the additional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.2, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
+				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
+				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+			},
+			{
+				"OutputProbability": 0.52, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
+				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
+				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+			},
+			{
+				"OutputProbability": 0.72, //The absolute probability of getting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equally divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaining outputs will be ignored.
+				"OutputIdentifier": 24, //This is required. Works the same as the OutputIdentifier described in the rule.
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 4800, //The amount of minutes it takes to produce this output. This will override the default MinutesUntilReady set in the rule. Should be divisible by 10.
+				"RequiredOutdoors": false, // [true|false|null] If true, the output can only be produced outdoors. If false, the output can only be produced indoors. If the line is removed or the value is null, it there is no restriction.
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	}
+]
+/* Additional Notes
+ * Possible stats: [SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned]
+ * Note that not all stats are correctly counted by the game.
+ */
