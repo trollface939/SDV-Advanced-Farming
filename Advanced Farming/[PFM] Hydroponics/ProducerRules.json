@@ -5,7 +5,8 @@
 		"InputStack": 4,
 		"FuelIdentifier": 368, //Basic Fertilizer
         "FuelStack": 1,
-		"MinutesUntilReady": 4800,
+		"MinutesUntilReady": 6400,
+		"SubtractTimeOfDay": true,
         "OutputIdentifier": 24, //Parsnip Crop
 		"OutputName": null,
 		"PreserveType": null,
