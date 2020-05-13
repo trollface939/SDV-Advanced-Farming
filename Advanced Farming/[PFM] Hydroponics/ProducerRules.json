@@ -282,7 +282,7 @@
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800‬,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -293,7 +293,7 @@
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800‬, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -304,7 +304,7 @@
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800‬,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -361,7 +361,7 @@
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -372,7 +372,7 @@
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -383,7 +383,7 @@
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -440,7 +440,7 @@
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -451,7 +451,7 @@
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -462,7 +462,7 @@
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -519,7 +519,7 @@
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -530,7 +530,7 @@
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -541,7 +541,7 @@
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -564,8 +564,8 @@
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -575,8 +575,8 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -586,8 +586,8 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -597,8 +597,8 @@
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -608,8 +608,8 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -619,8 +619,8 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 20, 
+				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -677,7 +677,7 @@
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -688,7 +688,7 @@
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -699,7 +699,7 @@
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -756,7 +756,7 @@
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -767,7 +767,7 @@
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -778,7 +778,7 @@
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -835,7 +835,7 @@
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -846,7 +846,7 @@
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -857,7 +857,7 @@
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -880,8 +880,8 @@
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -891,8 +891,8 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -902,8 +902,8 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -913,8 +913,8 @@
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -924,8 +924,8 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -935,8 +935,8 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 44, 
+				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -959,8 +959,8 @@
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 5.5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -970,8 +970,8 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 5.5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -981,8 +981,8 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 5.5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -992,8 +992,8 @@
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 6.6,
 				"MinutesUntilReady": 9600,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1003,8 +1003,8 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 6.6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1014,8 +1014,8 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 4.4, 
+				"OutputMaxStack": 6.6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1072,7 +1072,7 @@
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1083,7 +1083,7 @@
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1094,7 +1094,7 @@
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1151,7 +1151,7 @@
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1162,7 +1162,7 @@
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1173,7 +1173,7 @@
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1230,7 +1230,7 @@
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1241,7 +1241,7 @@
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1252,7 +1252,7 @@
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1309,7 +1309,7 @@
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1320,7 +1320,7 @@
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1331,7 +1331,7 @@
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1388,7 +1388,7 @@
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1399,7 +1399,7 @@
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1410,7 +1410,7 @@
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1467,7 +1467,7 @@
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1478,7 +1478,7 @@
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1489,7 +1489,7 @@
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1546,7 +1546,7 @@
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 4, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1557,7 +1557,7 @@
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1568,7 +1568,7 @@
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1590,9 +1590,9 @@
 				//Iridium Output
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputQuality": 2, 
+				"OutputStack": 68, 
+				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -1602,8 +1602,8 @@
 				"OutputProbability": 0.52, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 68, 
+				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -1613,8 +1613,8 @@
 				"OutputProbability": 0.72, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 68, 
+				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
 				"RequiredOutdoors": false, 
@@ -1624,8 +1624,8 @@
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 68, 
+				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1635,8 +1635,8 @@
 				"OutputProbability": 0.77, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 68, 
+				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
@@ -1646,8 +1646,8 @@
 				"OutputProbability": 0.92, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
+				"OutputStack": 68, 
+				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { 369: 1 },
 				"RequiredOutdoors": false, 
