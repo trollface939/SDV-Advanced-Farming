@@ -8,11 +8,11 @@
 	"UpdateKeys": [],
 	"ContentPackFor": {
 		"UniqueID": "DIGUS.ProducerFrameworkMod"
-	}
+	},
 	"Dependencies": [
-   {
-      "UniqueID": "AKD.JA.AdvancedFarming",
-      "IsRequired": true,
-   },
-],
+		{
+			"UniqueID": "AKD.JA.AdvancedFarming",
+			"IsRequired": true,
+		},
+	],
 }
