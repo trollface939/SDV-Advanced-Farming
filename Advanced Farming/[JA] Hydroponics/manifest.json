@@ -8,10 +8,4 @@
    "ContentPackFor": {
        "UniqueID": "spacechase0.JsonAssets"
     },
-	"Dependencies": [
-		{
-			"UniqueID": "AKD.PFM.AdvancedFarming",
-			"IsRequired": true,
-		},
-	],
 }
