@@ -19,7 +19,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -30,7 +30,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -52,7 +52,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -63,7 +63,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -98,7 +98,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 2, 
 				"OutputStack": 28, 
@@ -109,7 +109,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 1, 
 				"OutputStack": 28, 
@@ -131,7 +131,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 2, 
 				"OutputStack": 28, 
@@ -142,7 +142,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 815, //Tea Leaves
 				"OutputQuality": 1, 
 				"OutputStack": 28, 
@@ -177,7 +177,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 2, 
 				"OutputStack": 24, 
@@ -188,7 +188,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 1, 
 				"OutputStack": 24, 
@@ -210,7 +210,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 2, 
 				"OutputStack": 24, 
@@ -221,7 +221,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 1, 
 				"OutputStack": 24, 
@@ -256,7 +256,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -267,7 +267,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -289,7 +289,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -300,7 +300,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 190, //Cauliflower
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -335,7 +335,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -346,7 +346,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -368,7 +368,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -379,7 +379,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 192, //Potatoes
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -414,7 +414,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -425,7 +425,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -447,7 +447,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -458,7 +458,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 248, //Garlic
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -493,7 +493,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -504,7 +504,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -526,7 +526,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -537,7 +537,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 250, //Kale
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -572,7 +572,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 2, 
 				"OutputStack": 20, 
@@ -583,7 +583,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 1, 
 				"OutputStack": 20, 
@@ -605,7 +605,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 2, 
 				"OutputStack": 20, 
@@ -616,7 +616,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 256, //Tomatoes
 				"OutputQuality": 1, 
 				"OutputStack": 20, 
@@ -651,7 +651,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -662,7 +662,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -684,7 +684,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -695,7 +695,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 262, //Wheat
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -730,7 +730,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -741,7 +741,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -763,7 +763,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -774,7 +774,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 264, //Radish
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -809,7 +809,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -820,7 +820,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -842,7 +842,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -853,7 +853,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 266, //Red Cabbage
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -888,7 +888,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 2, 
 				"OutputStack": 44, 
@@ -899,7 +899,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 1, 
 				"OutputStack": 44, 
@@ -921,7 +921,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 2, 
 				"OutputStack": 44, 
@@ -932,7 +932,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 270, //Corn
 				"OutputQuality": 1, 
 				"OutputStack": 44, 
@@ -967,7 +967,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 2, 
 				"OutputStack": 4,
@@ -978,7 +978,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 1, 
 				"OutputStack": 4,
@@ -1000,7 +1000,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 2, 
 				"OutputStack": 4,
@@ -1011,7 +1011,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 271, //Unmilled Rice
 				"OutputQuality": 1, 
 				"OutputStack": 4,
@@ -1046,7 +1046,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1057,7 +1057,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1079,7 +1079,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1090,7 +1090,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 272, //Eggplant
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1125,7 +1125,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1136,7 +1136,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1158,7 +1158,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1169,7 +1169,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 274, //Artichoke
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1204,7 +1204,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1215,7 +1215,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1237,7 +1237,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1248,7 +1248,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 276, //Pumpkin
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1283,7 +1283,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1294,7 +1294,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1316,7 +1316,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1327,7 +1327,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 278, //Bok Choy
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1362,7 +1362,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1373,7 +1373,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1395,7 +1395,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1406,7 +1406,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 280, //Yam
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1441,7 +1441,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"RequiredFuel": { 368: 1 },
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 2, 
@@ -1452,7 +1452,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1474,7 +1474,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1485,7 +1485,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1520,7 +1520,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1531,7 +1531,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1553,7 +1553,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
@@ -1564,7 +1564,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 300, //Amaranth
 				"OutputQuality": 1, 
 				"OutputStack": 4, 
@@ -1599,7 +1599,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.52, 
+				"OutputProbability": 0.30, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 2, 
 				"OutputStack": 68, 
@@ -1610,7 +1610,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.72, 
+				"OutputProbability": 0.45, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 1, 
 				"OutputStack": 68, 
@@ -1632,7 +1632,7 @@
 			},
 			{
 				//Gold Output
-				"OutputProbability": 0.77, 
+				"OutputProbability": 0.35, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 2, 
 				"OutputStack": 68, 
@@ -1643,7 +1643,7 @@
 			},
 			{
 				//Silver Output
-				"OutputProbability": 0.92, 
+				"OutputProbability": 0.25, 
 				"OutputIdentifier": 304, //Hops
 				"OutputQuality": 1, 
 				"OutputStack": 68, 
