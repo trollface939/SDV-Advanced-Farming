@@ -3,7 +3,7 @@
 		"ProducerName": "Hydroponic Bed", //Name of the producer
 		"AlternateFrameProducing": false, //If the producer should use the alternate frame when producing.
 		"AlternateFrameWhenReady": false, //If the producer should use the alternate frame and ready for harvest.
-		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": false, // If the producer bouncing animation while working should be disabled.
 		"WorkingOutdoors": false, // [true|false|null] If true, the machine will only work outdoor. If false, the machine will only work indoor. If the line is removed or the value is null, it will work on both kind of location.
 	}
 ]
