@@ -2,7 +2,7 @@
     "Name": "Hydroponic Bed",
     "Description": "A raised bed that has artificial soil to allow for full control of nutrients.",
     "Price": 100,
-    "ProvidesLight": false,
+    "ProvidesLight": true,
     "CanPurchase": true, 
     "PurchaseFrom": "Robin",
     "PurchasePrice": 400,
@@ -11,19 +11,19 @@
         "ResultCount": 1,
         "Ingredients": [
         {
-            "Object": 330,
+            "Object": 330, //Clay
             "Count": 2,
         },
 		{
-            "Object": 388,
+            "Object": 388, //Wood
             "Count": 10,
         },
 		{
-            "Object": 178,
+            "Object": 178, //Hay
             "Count": 3,
         },
         {
-            "Object": 368, 
+            "Object": 368, //Basic Fertilizer
             "Count": 1,
         }, ],
 		
