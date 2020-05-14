@@ -1,5 +1,26 @@
 ﻿[
 	{ 
+		"ProducerName": "Aquaponics Aquarium", 
+		"MinutesUntilReady": 1300,
+        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
+		"OutputStack": 16, 
+		"AdditionalOutputs": [ 
+			{
+				//5x Roe Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 812, //Roe output
+				"OutputStack": 1, 
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 1300, 
+				"RequiredOutdoors": false
+			}
+		],
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
+	
+	{ 
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 472, //Parsnip Seeds
 		"InputStack": 4,
@@ -1666,31 +1687,6 @@
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
 	},
-	
-	{ 
-		"ProducerName": "Aquaponics Aquarium", 
-		"InputIdentifier": -4, //Any Fish
-		"InputStack": 5,
-		"MinutesUntilReady": 1300,
-        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
-		"OutputStack": 16, 
-		"AdditionalOutputs": [ 
-			{
-				//5x Roe Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 1, 
-				"OutputMaxStack": 2,
-				"MinutesUntilReady": 1300, 
-				"RequiredFuel": { -4: 5 },
-				"RequiredOutdoors": false
-			}
-		],
-		"PlacingAnimation": "Bubbles",
-		"DelayedSounds": [ { "Bubbles": 50 } ],
-		"PlacingAnimationColorName": "White"
-	},
-	
 	{
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 433, //Coffee Bean
@@ -2637,8 +2633,7 @@
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White",
-	},
->>>>>>> c12874e1d2cc3855cc4f3e718c76ccc10f0daa8a
+	}
 ]
 /* Additional Notes
  * Possible stats: [SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned]

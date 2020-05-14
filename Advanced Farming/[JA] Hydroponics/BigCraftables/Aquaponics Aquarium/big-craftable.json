@@ -1,0 +1,68 @@
+{
+    "Name": "Aquaponics Aquarium",
+    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.",
+    "Price": 100,
+    "ProvidesLight": true,
+    "CanPurchase": true, 
+    "PurchaseFrom": "Robin",
+    "PurchasePrice": 400,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron
+				"Count": 5,
+			},
+			{
+				"Object": 388, //Wood
+				"Count": 50,
+			},
+			{
+				"Object": 787, //Battery Pack
+				"Count": 1,
+			},
+			{
+				"Object": 2, //Stone
+				"Count": 10,
+			},
+			{
+				"Object": -4, //5 of any Fish
+				"Count": 5,
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 2000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aquaponics Aquarium", //Spansih
+            "ko": "Aquaponics Aquarium", //Korean
+            "de": "Aquaponics Aquarium", //German
+            "fr": "Aquaponics Aquarium", //French
+            "hu": "Aquaponics Aquarium", //Hungarian
+            "it": "Aquaponics Aquarium", //Italian
+            "ja": "Aquaponics Aquarium", //Japanese
+            "pt": "Aquaponics Aquarium", //Portuguese
+            "ru": "Aquaponics Aquarium", //Russian
+            "tr": "Aquaponics Aquarium", //Turkish
+            "zh": "Aquaponics Aquarium" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Spansih
+            "ko": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Korean
+            "de": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //German
+            "fr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //French
+            "hu": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Hungarian
+            "it": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe..", //Italian
+            "ja": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Japanese
+            "pt": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Portuguese
+            "ru": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Russian
+            "tr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Turkish
+            "zh": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe." //Chinese (Simplified)
+        }
+    }

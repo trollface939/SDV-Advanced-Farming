@@ -8,6 +8,7 @@
 	},
 	{
 		"ProducerName": "Aquaponics Aquarium",
+		"NoInputStartMode": "DayUpdate",
 		"AlternateFrameProducing": false,
 		"AlternateFrameWhenReady": false,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
