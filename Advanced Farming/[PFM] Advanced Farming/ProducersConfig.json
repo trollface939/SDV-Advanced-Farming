@@ -1,8 +1,8 @@
 ﻿[
 	{
 		"ProducerName": "Hydroponic Bed",
-		"AlternateFrameProducing": false,
-		"AlternateFrameWhenReady": false,
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": true,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
 		"WorkingOutdoors": false,
 	},
