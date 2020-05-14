@@ -15,7 +15,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -26,7 +26,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -37,7 +37,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -48,7 +48,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -59,7 +59,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -70,12 +70,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -94,7 +94,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -105,7 +105,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -116,7 +116,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -127,7 +127,7 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -138,7 +138,7 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -149,12 +149,12 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -173,7 +173,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -184,7 +184,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -195,7 +195,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -206,7 +206,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -217,7 +217,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -228,8 +228,8 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
@@ -252,7 +252,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -263,7 +263,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -274,7 +274,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -285,7 +285,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -296,7 +296,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -307,12 +307,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -331,7 +331,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -342,7 +342,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -353,7 +353,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -364,7 +364,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -375,7 +375,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -386,12 +386,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -410,7 +410,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -421,7 +421,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -432,7 +432,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -443,7 +443,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -454,7 +454,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -465,12 +465,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -489,7 +489,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -500,7 +500,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -511,7 +511,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -522,7 +522,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -533,7 +533,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -544,12 +544,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -568,7 +568,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -579,7 +579,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -590,7 +590,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -601,7 +601,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -612,7 +612,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -623,12 +623,12 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -647,7 +647,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -658,7 +658,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -669,7 +669,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -680,7 +680,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -691,7 +691,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -702,12 +702,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -737,7 +737,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -748,7 +748,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -759,7 +759,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -770,7 +770,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -781,12 +781,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -805,7 +805,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -816,7 +816,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -827,7 +827,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -838,7 +838,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -849,7 +849,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -860,12 +860,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -884,7 +884,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -895,7 +895,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -906,7 +906,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -917,7 +917,7 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -928,7 +928,7 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -939,12 +939,12 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -963,7 +963,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -974,7 +974,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -985,7 +985,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -996,7 +996,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1007,7 +1007,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false 
 			},
 			{
 				//Silver Output
@@ -1018,12 +1018,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1042,7 +1042,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1053,7 +1053,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1064,7 +1064,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1075,7 +1075,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1086,7 +1086,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1097,12 +1097,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1121,7 +1121,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1132,7 +1132,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1143,7 +1143,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1154,7 +1154,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1165,7 +1165,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1176,12 +1176,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1200,7 +1200,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1211,7 +1211,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1222,7 +1222,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1233,7 +1233,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1244,7 +1244,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1255,12 +1255,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1279,7 +1279,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false 
 			},
 			{
 				//Gold Output
@@ -1290,7 +1290,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1301,7 +1301,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1312,7 +1312,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1323,7 +1323,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1334,12 +1334,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1358,7 +1358,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1369,7 +1369,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1380,7 +1380,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1391,7 +1391,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1402,7 +1402,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1413,12 +1413,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1437,7 +1437,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1448,7 +1448,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1459,7 +1459,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1470,7 +1470,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1481,7 +1481,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1492,12 +1492,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1516,7 +1516,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1527,7 +1527,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1538,7 +1538,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1549,7 +1549,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1560,7 +1560,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1571,12 +1571,12 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
 	
 	{ 
@@ -1595,7 +1595,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1606,7 +1606,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1617,7 +1617,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Iridium Output
@@ -1628,7 +1628,7 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Gold Output
@@ -1639,7 +1639,7 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
+				"RequiredOutdoors": false
 			},
 			{
 				//Silver Output
@@ -1650,13 +1650,46 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { 369: 1 },
-				"RequiredOutdoors": false, 
-			},
+				"RequiredOutdoors": false
+			}
 		],
+		"LookForInputWhenReady": {
+			"Range": 4,
+			"InputIdentifier": ["Basic Fertilizer"],
+			"Crop": false,
+			"ExcludeForageCrops": true,
+			"GardenPot": false,
+			"FruitTree": false,
+			"BigCraftable": true
+		},
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White",
+		"PlacingAnimationColorName": "White"
 	},
+	
+	{ 
+		"ProducerName": "Aquaponics Aquarium", 
+		"InputIdentifier": -4, //Any Fish
+		"InputStack": 5,
+		"MinutesUntilReady": 1300,
+        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
+		"OutputStack": 16, 
+		"AdditionalOutputs": [ 
+			{
+				//5x Roe Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 812, //Roe output
+				"OutputStack": 1, 
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 1300, 
+				"RequiredFuel": { -4: 5 },
+				"RequiredOutdoors": false
+			}
+		],
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "Bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	}
 ]
 /* Additional Notes
  * Possible stats: [SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned]

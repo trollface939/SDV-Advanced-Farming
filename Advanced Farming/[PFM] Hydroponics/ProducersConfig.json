@@ -5,5 +5,12 @@
 		"AlternateFrameWhenReady": false,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
 		"WorkingOutdoors": false,
+	},
+	{
+		"ProducerName": "Aquaponics Aquarium",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"WorkingOutdoors": false
 	}
 ]
