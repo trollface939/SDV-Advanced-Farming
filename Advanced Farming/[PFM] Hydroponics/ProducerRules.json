@@ -1668,7 +1668,6 @@
 	},
 	
 	{ 
-<<<<<<< HEAD
 		"ProducerName": "Aquaponics Aquarium", 
 		"InputIdentifier": -4, //Any Fish
 		"InputStack": 5,
@@ -1690,8 +1689,9 @@
 		"PlacingAnimation": "Bubbles",
 		"DelayedSounds": [ { "Bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"
-	}
-=======
+	},
+	
+	{
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 433, //Coffee Bean
 		"InputStack": 4,
