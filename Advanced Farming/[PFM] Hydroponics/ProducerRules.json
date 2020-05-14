@@ -1590,7 +1590,7 @@
 				//Iridium Output
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 2, 
+				"OutputQuality": 4, 
 				"OutputStack": 68, 
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
@@ -1668,6 +1668,7 @@
 	},
 	
 	{ 
+<<<<<<< HEAD
 		"ProducerName": "Aquaponics Aquarium", 
 		"InputIdentifier": -4, //Any Fish
 		"InputStack": 5,
@@ -1690,6 +1691,954 @@
 		"DelayedSounds": [ { "Bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"
 	}
+=======
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 433, //Coffee Bean
+		"InputStack": 4,
+		"MinutesUntilReady": 86400,
+        "OutputIdentifier": 433, //Coffee Bean
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 4, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 552,
+				"MinutesUntilReady": 86400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 2, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 552,
+				"MinutesUntilReady": 86400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 1, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 552,
+				"MinutesUntilReady": 86400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 4, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 644,
+				"MinutesUntilReady": 86400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 2, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 644,
+				"MinutesUntilReady": 86400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 1, 
+				"OutputStack": 368, 
+				"OutputMaxStack": 644,
+				"MinutesUntilReady": 86400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 478, //Rhubarb Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 20800,
+        "OutputIdentifier": 252, //Rhubarb
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 745, //Strawberry Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 38400,
+        "OutputIdentifier": 400, //Strawberry
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 4, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 60,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 2, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 60,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 1, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 60,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 4, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 2, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 400, //Strawberry
+				"OutputQuality": 1, 
+				"OutputStack": 20, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 481, //Blueberry Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 38400,
+        "OutputIdentifier": 258, //Blueberry
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 4, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 64,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 2, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 64,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 1, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 64,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 4, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 2, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 1, 
+				"OutputStack": 48, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 38400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 482, //Hot Pepper Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 41600,
+        "OutputIdentifier": 260, //Hot Pepper
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 4, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 41600, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 2, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 41600, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 1, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 41600, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 4, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 128,
+				"MinutesUntilReady": 41600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 2, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 128,
+				"MinutesUntilReady": 41600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 260, //Hot Pepper
+				"OutputQuality": 1, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 128,
+				"MinutesUntilReady": 41600,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 479, //Melon Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 19200,
+        "OutputIdentifier": 254, //Melon
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 19200,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 486, //Starfruit Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 20800,
+        "OutputIdentifier": 268, //Starfruit
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 493, //Cranberry Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 43200,
+        "OutputIdentifier": 282, //Cranberries
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 4, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 2, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 1, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 80,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 4, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 100,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 2, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 100,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 1, 
+				"OutputStack": 40, 
+				"OutputMaxStack": 100,
+				"MinutesUntilReady": 43200,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 301, //Grape Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 40000,
+        "OutputIdentifier": 398, //Grapes
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 4, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 72,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 2, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 72,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 1, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 72,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 4, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 2, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 40000, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 1, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 96,
+				"MinutesUntilReady": 40000,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 499, //Ancient Fruit Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 123200,
+        "OutputIdentifier": 454, //Ancient Fruit
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 48,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 48,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 48,
+				"MinutesUntilReady": 123200,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 802, //Cactus Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 43200,
+        "OutputIdentifier": 90, //Cactus Fruit
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 30,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 36,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 36,
+				"MinutesUntilReady": 43200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 24, 
+				"OutputMaxStack": 36,
+				"MinutesUntilReady": 43200,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+	
+	{ 
+		"ProducerName": "Hydroponic Bed", 
+		"InputIdentifier": 347, //Rare Seeds
+		"InputStack": 4,
+		"MinutesUntilReady": 38400,
+        "OutputIdentifier": 417, //Sweet Gem Berry
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 368: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 38400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredOutdoors": false, 
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",
+	},
+>>>>>>> c12874e1d2cc3855cc4f3e718c76ccc10f0daa8a
 ]
 /* Additional Notes
  * Possible stats: [SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned]
