@@ -3,6 +3,7 @@
     "Description": "A raised bed that has artificial soil to allow for full control of nutrients.",
     "Price": 100,
     "ProvidesLight": true,
+	"ReserveExtraIndexCount": 2,
     "CanPurchase": true, 
     "PurchaseFrom": "Robin",
     "PurchasePrice": 400,
