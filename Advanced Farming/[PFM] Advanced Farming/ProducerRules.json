@@ -2,14 +2,34 @@
 	{ 
 		"ProducerName": "Aquaponics Aquarium", 
         "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
-		"OutputStack": 16, 
 		"AdditionalOutputs": [ 
 			{
 				//5x Roe Output
-				"OutputProbability": 0.35, 
+				"OutputProbability": 0.5, 
 				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 1, 
-				"OutputMaxStack": 2,
+				"OutputStack": 15, 
+				"OutputMaxStack": 25,
+				"RequiredOutdoors": false
+			},
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 812, //Roe output
+				"OutputStack": 3, 
+				"OutputMaxStack": 5,
+				"RequiredOutdoors": false
+			},
+			{
+				"OutputProbability": 0.20, 
+				"OutputIdentifier": 369, //Quality Fertilizer
+				"OutputStack": 16, 
+				"OutputMaxStack": 16,
+				"RequiredOutdoors": false
+			},
+			{
+				"OutputProbability": 0.65, 
+				"OutputIdentifier": 368, //Basic Fertilizer
+				"OutputStack": 16, 
+				"OutputMaxStack": 16,
 				"RequiredOutdoors": false
 			}
 		],

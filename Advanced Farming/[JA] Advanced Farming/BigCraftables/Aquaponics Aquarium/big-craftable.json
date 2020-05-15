@@ -5,7 +5,7 @@
     "ProvidesLight": true,
     "CanPurchase": true, 
     "PurchaseFrom": "Robin",
-    "PurchasePrice": 400,
+    "PurchasePrice": 1400,
     "Recipe":
     { 
         "ResultCount": 1,
@@ -34,7 +34,7 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 2000,
+		"PurchasePrice": 4000,
 		"PurchaseRequirements": null,
     },
         "NameLocalization": //Used for localization. 
