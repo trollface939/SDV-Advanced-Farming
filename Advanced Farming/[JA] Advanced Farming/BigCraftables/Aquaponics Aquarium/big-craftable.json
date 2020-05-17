@@ -1,11 +1,8 @@
 {
     "Name": "Aquaponics Aquarium",
-    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.",
+    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Creates Fertilizer with a chance to produce either Roe or Quality Fertilizer",
     "Price": 100,
     "ProvidesLight": true,
-    "CanPurchase": true, 
-    "PurchaseFrom": "Robin",
-    "PurchasePrice": 1400,
     "Recipe":
     { 
         "ResultCount": 1,
@@ -23,7 +20,7 @@
 				"Count": 1,
 			},
 			{
-				"Object": 2, //Stone
+				"Object": 390, //Stone
 				"Count": 10,
 			},
 			{

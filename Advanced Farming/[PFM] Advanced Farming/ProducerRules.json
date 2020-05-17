@@ -1,4 +1,34 @@
 ﻿[
+	{
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": 390, //Stone
+		"InputStack": 1,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Silt",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": "Silt", 
+		"InputStack": 1,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Sand",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
 	{ 
 		"ProducerName": "Aquaponics Aquarium", 
         "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
