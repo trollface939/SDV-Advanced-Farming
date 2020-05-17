@@ -1,6 +1,6 @@
 {
     "Name": "Rock Smasher",
-    "Description": "A machine that crushes rocks to produce Sand and Sand.",
+    "Description": "A machine that crushes rocks to produce Silt and Sand.",
     "Price": 100,
     "ProvidesLight": true,
 	"ReserveExtraIndexCount": 9,
