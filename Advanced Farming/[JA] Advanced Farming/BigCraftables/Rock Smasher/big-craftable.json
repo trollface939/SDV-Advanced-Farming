@@ -1,0 +1,66 @@
+{
+    "Name": "Rock Smasher",
+    "Description": "A machine that crushes rocks to produce Sand and Sand.",
+    "Price": 100,
+    "ProvidesLight": true,
+	"ReserveExtraIndexCount": 9,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron Bar
+				"Count": 6,
+			},
+			{
+				"Object": 336, //Gold Bar
+				"Count": 2,
+			},
+			{
+				"Object": 787, //Battery Pack
+				"Count": 1,
+			},
+			{
+				"Object": 334, //Copper Bar
+				"Count": 1,
+			},
+			{
+				"Object": 338, //Refined Quartz
+				"Count": 2,
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 4000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Rock Smasher", //Spansih
+            "ko": "Rock Smasher", //Korean
+            "de": "Rock Smasher", //German
+            "fr": "Rock Smasher", //French
+            "hu": "Rock Smasher", //Hungarian
+            "it": "Rock Smasher", //Italian
+            "ja": "Rock Smasher", //Japanese
+            "pt": "Rock Smasher", //Portuguese
+            "ru": "Rock Smasher", //Russian
+            "tr": "Rock Smasher", //Turkish
+            "zh": "Rock Smasher" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A machine that crushes rocks to produce Silt.", //Spansih
+            "ko": "A machine that crushes rocks to produce Silt.", //Korean
+            "de": "A machine that crushes rocks to produce Silt.", //German
+            "fr": "A machine that crushes rocks to produce Silt.", //French
+            "hu": "A machine that crushes rocks to produce Silt.", //Hungarian
+            "it": "A machine that crushes rocks to produce Silt.", //Italian
+            "ja": "A machine that crushes rocks to produce Silt.", //Japanese
+            "pt": "A machine that crushes rocks to produce Silt.", //Portuguese
+            "ru": "A machine that crushes rocks to produce Silt.", //Russian
+            "tr": "A machine that crushes rocks to produce Silt.", //Turkish
+            "zh": "A machine that crushes rocks to produce Silt." //Chinese (Simplified)
+        }
+    }

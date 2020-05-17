@@ -4,16 +4,13 @@
     "Price": 100,
     "ProvidesLight": true,
 	"ReserveExtraIndexCount": 2,
-    "CanPurchase": true, 
-    "PurchaseFrom": "Robin",
-    "PurchasePrice": 400,
     "Recipe":
     { 
         "ResultCount": 1,
         "Ingredients": [
         {
-            "Object": 330, //Clay
-            "Count": 2,
+            "Object": "Sandy Loam", //Clay
+            "Count": 1,
         },
 		{
             "Object": 388, //Wood
@@ -30,7 +27,7 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 2000,
+		"PurchasePrice": 4000,
 		"PurchaseRequirements": null,
     },
         "NameLocalization": //Used for localization. 
