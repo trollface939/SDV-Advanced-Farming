@@ -1,4 +1,19 @@
 ﻿[
+		{
+		"ProducerName": "Mixer", 
+		"InputIdentifier": 369, //Stone
+		"InputStack": 1,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Liquid Fertilizer",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "bubbles" ], 
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
 	{
 		"ProducerName": "Rock Smasher", 
 		"InputIdentifier": 390, //Stone
@@ -50,7 +65,7 @@
 			},
 			{
 				"OutputProbability": 0.20, 
-				"OutputIdentifier": 369, //Quality Fertilizer
+				"OutputIdentifier": "Liquid Fertilizer", //Quality Fertilizer
 				"OutputStack": 16, 
 				"OutputMaxStack": 16,
 				"RequiredOutdoors": false
@@ -116,7 +131,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -127,7 +142,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -138,7 +153,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -195,7 +210,7 @@
 				"OutputStack": 28, 
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -206,7 +221,7 @@
 				"OutputStack": 28, 
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -217,7 +232,7 @@
 				"OutputStack": 28, 
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -274,7 +289,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -285,7 +300,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -296,7 +311,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -353,7 +368,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -364,7 +379,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -375,7 +390,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -432,7 +447,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -443,7 +458,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -454,7 +469,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -511,7 +526,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -522,7 +537,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -533,7 +548,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -590,7 +605,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -601,7 +616,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -612,7 +627,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -669,7 +684,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -680,7 +695,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -691,7 +706,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -748,7 +763,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -759,7 +774,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -770,7 +785,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -827,7 +842,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -838,7 +853,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -849,7 +864,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -906,7 +921,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -917,7 +932,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -928,7 +943,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -985,7 +1000,7 @@
 				"OutputStack": 44, 
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -996,7 +1011,7 @@
 				"OutputStack": 44, 
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1007,7 +1022,7 @@
 				"OutputStack": 44, 
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1064,7 +1079,7 @@
 				"OutputStack": 4,
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1075,7 +1090,7 @@
 				"OutputStack": 4,
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false 
 			},
 			{
@@ -1086,7 +1101,7 @@
 				"OutputStack": 4,
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1143,7 +1158,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1154,7 +1169,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1165,7 +1180,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1222,7 +1237,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1233,7 +1248,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1244,7 +1259,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1301,7 +1316,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1312,7 +1327,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1323,7 +1338,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1380,7 +1395,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1391,7 +1406,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1402,7 +1417,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1459,7 +1474,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1470,7 +1485,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1481,7 +1496,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1538,7 +1553,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1549,7 +1564,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1560,7 +1575,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1617,7 +1632,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1628,7 +1643,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1639,7 +1654,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1696,7 +1711,7 @@
 				"OutputStack": 68, 
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1707,7 +1722,7 @@
 				"OutputStack": 68, 
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			},
 			{
@@ -1718,7 +1733,7 @@
 				"OutputStack": 68, 
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false
 			}
 		],
@@ -1783,7 +1798,7 @@
 				"OutputStack": 368, 
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1794,7 +1809,7 @@
 				"OutputStack": 368, 
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1805,7 +1820,7 @@
 				"OutputStack": 368, 
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1862,7 +1877,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1873,7 +1888,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1884,7 +1899,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -1941,7 +1956,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1952,7 +1967,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -1963,7 +1978,7 @@
 				"OutputStack": 20, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2020,7 +2035,7 @@
 				"OutputStack": 48, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2031,7 +2046,7 @@
 				"OutputStack": 48, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2042,7 +2057,7 @@
 				"OutputStack": 48, 
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2099,7 +2114,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2110,7 +2125,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2121,7 +2136,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2178,7 +2193,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2189,7 +2204,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2200,7 +2215,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2257,7 +2272,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2268,7 +2283,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2279,7 +2294,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2336,7 +2351,7 @@
 				"OutputStack": 40, 
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2347,7 +2362,7 @@
 				"OutputStack": 40, 
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2358,7 +2373,7 @@
 				"OutputStack": 40, 
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2415,7 +2430,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2426,7 +2441,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2437,7 +2452,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2494,7 +2509,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2505,7 +2520,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2516,7 +2531,7 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2573,7 +2588,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2584,7 +2599,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2595,7 +2610,7 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],
@@ -2652,7 +2667,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2663,7 +2678,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 			{
@@ -2674,7 +2689,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400,
-				"RequiredFuel": { 369: 1 },
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredOutdoors": false, 
 			},
 		],

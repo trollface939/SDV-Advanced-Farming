@@ -1,0 +1,59 @@
+{
+    "Name": "Compost Bin",
+    "Description": "A bin for composting biomass into home made fertilizer.",
+    "Price": 100,
+    "ProvidesLight": true,
+	"ReserveExtraIndexCount": 3,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 334, //Copper
+				"Count": 1
+
+			},
+			{
+				"Object": 388, //Wood
+				"Count": 50
+			},
+			{
+				"Object": 390, //Stone
+				"Count": 50
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 1500,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Compost Bin", //Spansih
+            "ko": "Compost Bin", //Korean
+            "de": "Compost Bin", //German
+            "fr": "Compost Bin", //French
+            "hu": "Compost Bin", //Hungarian
+            "it": "Compost Bin", //Italian
+            "ja": "Compost Bin", //Japanese
+            "pt": "Compost Bin", //Portuguese
+            "ru": "Compost Bin", //Russian
+            "tr": "Compost Bin", //Turkish
+            "zh": "Compost Bin" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A bin for composting biomass into home made fertilizer.", //Spansih
+            "ko": "A bin for composting biomass into home made fertilizer.", //Korean
+            "de": "A bin for composting biomass into home made fertilizer.", //German
+            "fr": "A bin for composting biomass into home made fertilizer.", //French
+            "hu": "A bin for composting biomass into home made fertilizer.", //Hungarian
+            "it": "A bin for composting biomass into home made fertilizer.", //Italian
+            "ja": "A bin for composting biomass into home made fertilizer.", //Japanese
+            "pt": "A bin for composting biomass into home made fertilizer.", //Portuguese
+            "ru": "A bin for composting biomass into home made fertilizer.", //Russian
+            "tr": "A bin for composting biomass into home made fertilizer.", //Turkish
+            "zh": "A bin for composting biomass into home made fertilizer." //Chinese (Simplified)
+        }
+    }
