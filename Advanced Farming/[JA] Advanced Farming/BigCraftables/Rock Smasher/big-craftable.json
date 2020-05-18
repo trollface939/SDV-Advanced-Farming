@@ -1,6 +1,6 @@
 {
     "Name": "Rock Smasher",
-    "Description": "A machine that crushes rocks to produce Silt and Sand.",
+    "Description": "A machine that smashes items for crafting purposes.",
     "Price": 100,
     "ProvidesLight": true,
 	"ReserveExtraIndexCount": 9,
@@ -51,16 +51,16 @@
         },
         "DescriptionLocalization": //Used for localization. 
         { 
-            "es": "A machine that crushes rocks to produce Silt.", //Spansih
-            "ko": "A machine that crushes rocks to produce Silt.", //Korean
-            "de": "A machine that crushes rocks to produce Silt.", //German
-            "fr": "A machine that crushes rocks to produce Silt.", //French
-            "hu": "A machine that crushes rocks to produce Silt.", //Hungarian
-            "it": "A machine that crushes rocks to produce Silt.", //Italian
-            "ja": "A machine that crushes rocks to produce Silt.", //Japanese
-            "pt": "A machine that crushes rocks to produce Silt.", //Portuguese
-            "ru": "A machine that crushes rocks to produce Silt.", //Russian
-            "tr": "A machine that crushes rocks to produce Silt.", //Turkish
-            "zh": "A machine that crushes rocks to produce Silt." //Chinese (Simplified)
+            "es": "A machine that smashes items for crafting purposes.", //Spansih
+            "ko": "A machine that smashes items for crafting purposes.", //Korean
+            "de": "A machine that smashes items for crafting purposes.", //German
+            "fr": "A machine that smashes items for crafting purposes.", //French
+            "hu": "A machine that smashes items for crafting purposes.", //Hungarian
+            "it": "A machine that smashes items for crafting purposes.", //Italian
+            "ja": "A machine that smashes items for crafting purposes.", //Japanese
+            "pt": "A machine that smashes items for crafting purposes.", //Portuguese
+            "ru": "A machine that smashes items for crafting purposes.", //Russian
+            "tr": "A machine that smashes items for crafting purposes.", //Turkish
+            "zh": "A machine that smashes items for crafting purposes." //Chinese (Simplified)
         }
-    }
+}
