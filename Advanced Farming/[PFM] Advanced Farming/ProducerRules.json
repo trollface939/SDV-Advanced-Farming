@@ -219,28 +219,28 @@
 				"OutputIdentifier": 812, //Roe output
 				"OutputStack": 15, 
 				"OutputMaxStack": 25,
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				"OutputProbability": 0.10, 
 				"OutputIdentifier": 812, //Roe output
 				"OutputStack": 3, 
 				"OutputMaxStack": 5,
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				"OutputProbability": 0.20, 
 				"OutputIdentifier": "Liquid Fertilizer", //Quality Fertilizer
 				"OutputStack": 16, 
 				"OutputMaxStack": 16,
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				"OutputProbability": 0.65, 
 				"OutputIdentifier": 368, //Basic Fertilizer
 				"OutputStack": 16, 
 				"OutputMaxStack": 16,
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"PlacingAnimation": "Bubbles",
@@ -253,7 +253,6 @@
 		"InputIdentifier": 472, //Parsnip Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 6400,
-        "OutputIdentifier": 24, //Parsnip Crop
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -264,7 +263,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -275,7 +274,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -286,7 +285,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -297,7 +296,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -308,7 +307,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -319,7 +318,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -332,7 +331,6 @@
 		"InputIdentifier": 251, //Tea Sapling
 		"InputStack": 4,
 		"MinutesUntilReady": 44800,
-        "OutputIdentifier": 815, //Tea Leaves
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -343,7 +341,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -354,7 +352,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -365,7 +363,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -376,7 +374,7 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -387,7 +385,7 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -398,7 +396,7 @@
 				"OutputMaxStack": 42,
 				"MinutesUntilReady": 44800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -411,7 +409,6 @@
 		"InputIdentifier": 473, //Bean Starter
 		"InputStack": 4,
 		"MinutesUntilReady": 40000,
-        "OutputIdentifier": 188, //Green Beans 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -422,7 +419,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -433,7 +430,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -444,7 +441,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -455,7 +452,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -466,7 +463,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -477,7 +474,7 @@
 				"OutputMaxStack": 35,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -490,7 +487,6 @@
 		"InputIdentifier": 474, //Cauliflower Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 20800,
-        "OutputIdentifier": 190, //Cauliflower
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -501,7 +497,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -512,7 +508,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -523,7 +519,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -534,7 +530,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -545,7 +541,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -556,7 +552,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -569,7 +565,6 @@
 		"InputIdentifier": 475, //Potato Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
-        "OutputIdentifier": 192, //Potatoes
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -580,7 +575,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -591,7 +586,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -602,7 +597,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -613,7 +608,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -624,7 +619,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -635,7 +630,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -648,7 +643,6 @@
 		"InputIdentifier": 476, //Garlic Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 6400,
-        "OutputIdentifier": 248, //Garlic 
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -659,7 +653,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -670,7 +664,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -681,7 +675,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -692,7 +686,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -703,7 +697,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -714,7 +708,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -727,7 +721,6 @@
 		"InputIdentifier": 477, //Kale Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
-        "OutputIdentifier": 250, //Kale
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -738,7 +731,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -749,7 +742,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -760,7 +753,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -771,7 +764,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -782,7 +775,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -793,7 +786,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -806,7 +799,6 @@
 		"InputIdentifier": 480, //Tomato Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 43200,
-        "OutputIdentifier": 256, //Tomatoes
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -817,7 +809,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -828,7 +820,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -839,7 +831,7 @@
 				"OutputMaxStack": 25,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -850,7 +842,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -861,7 +853,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -872,7 +864,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -885,7 +877,6 @@
 		"InputIdentifier": 483, //Wheat Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 6400,
-        "OutputIdentifier": 262, //Wheat
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -896,7 +887,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -907,7 +898,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -918,7 +909,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -929,7 +920,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -940,7 +931,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -951,7 +942,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -964,7 +955,6 @@
 		"InputIdentifier": 484, //Radish Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
-        "OutputIdentifier": 264, //Radish
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -975,7 +965,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -986,7 +976,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -997,7 +987,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1008,7 +998,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1019,7 +1009,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1030,7 +1020,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1043,7 +1033,6 @@
 		"InputIdentifier": 485, //Red Cabbage Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 14400,
-        "OutputIdentifier": 266, //Red Cabbage
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1054,7 +1043,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1065,7 +1054,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1076,7 +1065,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1087,7 +1076,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1098,7 +1087,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1109,7 +1098,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1122,7 +1111,6 @@
 		"InputIdentifier": 487, //Corn Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 88000,
-        "OutputIdentifier": 270, //Corn
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1133,7 +1121,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1144,7 +1132,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1155,7 +1143,7 @@
 				"OutputMaxStack": 55,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1166,7 +1154,7 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1177,7 +1165,7 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1188,7 +1176,7 @@
 				"OutputMaxStack": 66,
 				"MinutesUntilReady": 88000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1201,7 +1189,6 @@
 		"InputIdentifier": 473, //Rice Shoot
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
-        "OutputIdentifier": 271, //Unmilled Rice
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1212,7 +1199,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1223,7 +1210,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1234,7 +1221,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1245,7 +1232,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1256,7 +1243,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false 
+				  
 			},
 			{
 				//Silver Output
@@ -1267,7 +1254,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1280,7 +1267,6 @@
 		"InputIdentifier": 488, //Eggplant Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 8000,
-        "OutputIdentifier": 272, //Eggplant
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1291,7 +1277,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1302,7 +1288,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1313,7 +1299,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 8000,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1324,7 +1310,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1335,7 +1321,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1346,7 +1332,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 8000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1359,7 +1345,6 @@
 		"InputIdentifier": 489, //Artichoke Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 12800,
-        "OutputIdentifier": 274, //Artichoke
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1370,7 +1355,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1381,7 +1366,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1392,7 +1377,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1403,7 +1388,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1414,7 +1399,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1425,7 +1410,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1438,7 +1423,6 @@
 		"InputIdentifier": 490, //Pumpkin Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 20800,
-        "OutputIdentifier": 276, //Pumpkin
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1449,7 +1433,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1460,7 +1444,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1471,7 +1455,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1482,7 +1466,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1493,7 +1477,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1504,7 +1488,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1517,7 +1501,6 @@
 		"InputIdentifier": 491, //Bok Choy Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 6400,
-        "OutputIdentifier": 278, //Bok Choy
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1528,7 +1511,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false 
+				  
 			},
 			{
 				//Gold Output
@@ -1539,7 +1522,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1550,7 +1533,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1561,7 +1544,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1572,7 +1555,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1583,7 +1566,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1596,7 +1579,6 @@
 		"InputIdentifier": 492, //Yam Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 16000,
-        "OutputIdentifier": 280, //Yam
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1607,7 +1589,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1618,7 +1600,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1629,7 +1611,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1640,7 +1622,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1651,7 +1633,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1662,7 +1644,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1675,7 +1657,6 @@
 		"InputIdentifier": 494, //Beet Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
-        "OutputIdentifier": 284, //Beet
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1686,7 +1667,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1697,7 +1678,7 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1708,7 +1689,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1719,7 +1700,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1730,7 +1711,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1741,7 +1722,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1754,7 +1735,6 @@
 		"InputIdentifier": 299, //Amaranth Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 11200,
-        "OutputIdentifier": 300, //Amaranth
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1765,7 +1745,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1776,7 +1756,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1787,7 +1767,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200,
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1798,7 +1778,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1809,7 +1789,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1820,7 +1800,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
@@ -1833,7 +1813,6 @@
 		"InputIdentifier": 302, //Hops Starter
 		"InputStack": 4,
 		"MinutesUntilReady": 43200,
-        "OutputIdentifier": 304, //Hops
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1844,7 +1823,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1855,7 +1834,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1866,7 +1845,7 @@
 				"OutputMaxStack": 85,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Iridium Output
@@ -1877,7 +1856,7 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Gold Output
@@ -1888,7 +1867,7 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			},
 			{
 				//Silver Output
@@ -1899,7 +1878,7 @@
 				"OutputMaxStack": 102,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false
+				 
 			}
 		],
 		"LookForInputWhenReady": {
@@ -1915,12 +1894,12 @@
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
 	},
+	
 	{
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 433, //Coffee Bean
 		"InputStack": 4,
 		"MinutesUntilReady": 86400,
-        "OutputIdentifier": 433, //Coffee Bean
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -1931,7 +1910,7 @@
 				"OutputMaxStack": 552,
 				"MinutesUntilReady": 86400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -1942,7 +1921,7 @@
 				"OutputMaxStack": 552,
 				"MinutesUntilReady": 86400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -1953,7 +1932,7 @@
 				"OutputMaxStack": 552,
 				"MinutesUntilReady": 86400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -1964,7 +1943,7 @@
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -1975,7 +1954,7 @@
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -1986,7 +1965,7 @@
 				"OutputMaxStack": 644,
 				"MinutesUntilReady": 86400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -1999,7 +1978,6 @@
 		"InputIdentifier": 478, //Rhubarb Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 20800,
-        "OutputIdentifier": 252, //Rhubarb
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2010,7 +1988,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2021,7 +1999,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2032,7 +2010,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2043,7 +2021,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2054,7 +2032,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2065,7 +2043,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2078,7 +2056,6 @@
 		"InputIdentifier": 745, //Strawberry Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 38400,
-        "OutputIdentifier": 400, //Strawberry
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2089,7 +2066,7 @@
 				"OutputMaxStack": 60,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2100,7 +2077,7 @@
 				"OutputMaxStack": 60,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2111,7 +2088,7 @@
 				"OutputMaxStack": 60,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2122,7 +2099,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2133,7 +2110,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2144,7 +2121,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2157,7 +2134,6 @@
 		"InputIdentifier": 481, //Blueberry Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 38400,
-        "OutputIdentifier": 258, //Blueberry
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2168,7 +2144,7 @@
 				"OutputMaxStack": 64,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2179,7 +2155,7 @@
 				"OutputMaxStack": 64,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2190,7 +2166,7 @@
 				"OutputMaxStack": 64,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2201,7 +2177,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2212,7 +2188,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2223,7 +2199,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 38400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2236,7 +2212,6 @@
 		"InputIdentifier": 482, //Hot Pepper Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 41600,
-        "OutputIdentifier": 260, //Hot Pepper
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2247,7 +2222,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 41600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2258,7 +2233,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 41600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2269,7 +2244,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 41600, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2280,7 +2255,7 @@
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2291,7 +2266,7 @@
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2302,7 +2277,7 @@
 				"OutputMaxStack": 128,
 				"MinutesUntilReady": 41600,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2315,7 +2290,6 @@
 		"InputIdentifier": 479, //Melon Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 19200,
-        "OutputIdentifier": 254, //Melon
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2326,7 +2300,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2337,7 +2311,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2348,7 +2322,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2359,7 +2333,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2370,7 +2344,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2381,7 +2355,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2394,7 +2368,6 @@
 		"InputIdentifier": 486, //Starfruit Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 20800,
-        "OutputIdentifier": 268, //Starfruit
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2405,7 +2378,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2416,7 +2389,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2427,7 +2400,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2438,7 +2411,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2449,7 +2422,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2460,7 +2433,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2473,7 +2446,6 @@
 		"InputIdentifier": 493, //Cranberry Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 43200,
-        "OutputIdentifier": 282, //Cranberries
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2484,7 +2456,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2495,7 +2467,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2506,7 +2478,7 @@
 				"OutputMaxStack": 80,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2517,7 +2489,7 @@
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2528,7 +2500,7 @@
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2539,7 +2511,7 @@
 				"OutputMaxStack": 100,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2552,7 +2524,6 @@
 		"InputIdentifier": 301, //Grape Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 40000,
-        "OutputIdentifier": 398, //Grapes
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2563,7 +2534,7 @@
 				"OutputMaxStack": 72,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2574,7 +2545,7 @@
 				"OutputMaxStack": 72,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2585,7 +2556,7 @@
 				"OutputMaxStack": 72,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2596,7 +2567,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2607,7 +2578,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2618,7 +2589,7 @@
 				"OutputMaxStack": 96,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2631,7 +2602,6 @@
 		"InputIdentifier": 499, //Ancient Fruit Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 123200,
-        "OutputIdentifier": 454, //Ancient Fruit
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2642,7 +2612,7 @@
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2653,7 +2623,7 @@
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2664,7 +2634,7 @@
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2675,7 +2645,7 @@
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2686,7 +2656,7 @@
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2697,7 +2667,7 @@
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2710,7 +2680,6 @@
 		"InputIdentifier": 802, //Cactus Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 43200,
-        "OutputIdentifier": 90, //Cactus Fruit
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2721,7 +2690,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2732,7 +2701,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2743,7 +2712,7 @@
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2754,7 +2723,7 @@
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2765,7 +2734,7 @@
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2776,7 +2745,7 @@
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
@@ -2789,7 +2758,6 @@
 		"InputIdentifier": 347, //Rare Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 38400,
-        "OutputIdentifier": 417, //Sweet Gem Berry
 		"AdditionalOutputs": [ 
 			{
 				//Iridium Output
@@ -2800,7 +2768,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2811,7 +2779,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2822,7 +2790,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { 368: 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Iridium Output
@@ -2833,7 +2801,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Gold Output
@@ -2844,7 +2812,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 			{
 				//Silver Output
@@ -2855,7 +2823,7 @@
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
-				"RequiredOutdoors": false, 
+				 , 
 			},
 		],
 		"Sounds": [ "Ship" ], 
