@@ -1,7 +1,7 @@
 ﻿[
 		{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": 369, //Stone
+		"InputIdentifier": 369, //Quality Fertilizer
 		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
@@ -60,10 +60,10 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
-		"ProducerName": "Mixer", 
-		"InputIdentifier": "Sandy Loam", 
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": -75, 
 		"InputStack": 1,
-		"FuelIdentifier": -75,
+		"FuelIdentifier": -null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Biomass",
@@ -75,10 +75,10 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
-		"ProducerName": "Mixer", 
-		"InputIdentifier": "Sandy Loam", 
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": -79, 
 		"InputStack": 1,
-		"FuelIdentifier": -79,
+		"FuelIdentifier": -null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Biomass",
@@ -90,10 +90,10 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
-		"ProducerName": "Mixer", 
-		"InputIdentifier": "Sandy Loam", 
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": -80, 
 		"InputStack": 1,
-		"FuelIdentifier": -80,
+		"FuelIdentifier": null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Biomass",
@@ -105,10 +105,25 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
-		"ProducerName": "Mixer", 
-		"InputIdentifier": "Sandy Loam", 
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": -81, 
 		"InputStack": 1,
-		"FuelIdentifier": -81,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": 771, 
+		"InputStack": 10,
+		"FuelIdentifier": null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Biomass",
@@ -139,6 +154,51 @@
 		"InputIdentifier": "Biomass", 
 		"InputStack": 1,
 		"FuelIdentifier": -6,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Potent Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Mixer", 
+		"InputIdentifier": "Biomass", 
+		"InputStack": 1,
+		"FuelIdentifier": 392,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Potent Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Mixer", 
+		"InputIdentifier": "Biomass", 
+		"InputStack": 1,
+		"FuelIdentifier": 394,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Potent Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Mixer", 
+		"InputIdentifier": "Biomass", 
+		"InputStack": 1,
+		"FuelIdentifier": 372,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
