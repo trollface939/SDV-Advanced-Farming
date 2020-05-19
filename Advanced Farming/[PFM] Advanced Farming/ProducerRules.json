@@ -78,7 +78,7 @@
 		"ProducerName": "Rock Smasher", 
 		"InputIdentifier": -79, 
 		"InputStack": 1,
-		"FuelIdentifier": -null,
+		"FuelIdentifier": null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Biomass",
