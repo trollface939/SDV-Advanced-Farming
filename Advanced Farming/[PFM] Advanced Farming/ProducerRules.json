@@ -1672,13 +1672,12 @@
 			{
 				//Gold Output
 				"OutputProbability": 0.30, 
-				"RequiredFuel": { 368: 1 }
 				"OutputIdentifier": 284, //Beet
 				"OutputQuality": 2, 
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				 
+				"RequiredFuel": { 368: 1 }
 			},
 			{
 				//Silver Output
