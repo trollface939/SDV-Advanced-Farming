@@ -3,7 +3,7 @@
     "Description": "A bin for composting biomass into home made fertilizer.",
     "Price": 100,
     "ProvidesLight": true,
-	"ReserveExtraIndexCount": 3,
+	"ReserveExtraIndexCount": 2,
     "Recipe":
     { 
         "ResultCount": 1,
