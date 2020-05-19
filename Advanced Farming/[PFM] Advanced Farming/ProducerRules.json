@@ -1,5 +1,5 @@
 ﻿[
-		{
+	{
 		"ProducerName": "Compost Bin", 
 		"InputIdentifier": "Biomass", 
 		"InputStack": 1,
@@ -12,8 +12,8 @@
 		"RequiredOutdoors": null,
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
 		"ProducerName": "Compost Bin", 
 		"InputIdentifier": "Potent Biomass", 
 		"InputStack": 1,
@@ -26,8 +26,8 @@
 		"RequiredOutdoors": null,
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
 		"ProducerName": "Mixer", 
 		"InputIdentifier": 369, //Quality Fertilizer
 		"InputStack": 1,
@@ -41,8 +41,8 @@
 		"Sounds": [ "bubbles" ], 
 		"PlacingAnimation": "Bubbles",
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
 		"ProducerName": "Mixer", 
 		"InputIdentifier": "Biomass", 
 		"InputStack": 1,
