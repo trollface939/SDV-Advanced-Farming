@@ -122,7 +122,7 @@
 		"InputIdentifier": 390, //Stone
 		"InputStack": 1,
 		"FuelIdentifier": 80, //Quartz
-		"FuelStack": 1,
+		"FuelStack": 0,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Silt",
 		"OutputStack": 1,
