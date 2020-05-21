@@ -3,7 +3,7 @@
 		"ProducerName": "Hydroponic Bed",
 		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": true,
-		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": true,
 		"WorkingOutdoors": false,
 		"ReadyAnimation": 
         {
@@ -15,18 +15,18 @@
 		"NoInputStartMode": "DayUpdate",
 		"AlternateFrameProducing": false,
 		"AlternateFrameWhenReady": false,
-		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": true,
 		"WorkingOutdoors": false,
 	},
 	{
 		"ProducerName": "Rock Smasher",
 		"AlternateFrameProducing": false,
 		"AlternateFrameWhenReady": false,
-		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": true,
 		"WorkingOutdoors": null,
-		"ProducingAnimation": { // Set a configuration for animating the producing state of the machine. Default is null.
-            "RelativeFrameIndex": [1,2,3,4,5,6,7,8], //Index and order of the frames that should be used for the animation. Index start at zero, the base frame and index of the non producing state. Extra frames are content from that frame. Extra frames can be added with Json Assets or Content Patcher.
-            "FrameInterval": 8 // Amount of game ticks between frames. Default is 10
+		"ProducingAnimation": {
+            "RelativeFrameIndex": [1,2,3,4,5,6,7,8],
+            "FrameInterval": 8
         },
 		"ReadyAnimation": 
         {
@@ -37,11 +37,11 @@
 		"ProducerName": "Mixer",
 		"AlternateFrameProducing": false,
 		"AlternateFrameWhenReady": false,
-		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": true,
 		"WorkingOutdoors": null,
-		"ProducingAnimation": { // Set a configuration for animating the producing state of the machine. Default is null.
-            "RelativeFrameIndex": [1,2,3], //Index and order of the frames that should be used for the animation. Index start at zero, the base frame and index of the non producing state. Extra frames are content from that frame. Extra frames can be added with Json Assets or Content Patcher.
-            "FrameInterval": 6 // Amount of game ticks between frames. Default is 10
+		"ProducingAnimation": {
+            "RelativeFrameIndex": [1,2,3],
+            "FrameInterval": 6
         },
 		"ReadyAnimation": 
         {
@@ -52,11 +52,11 @@
 		"ProducerName": "Compost Bin",
 		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": true,
-		"DisableBouncingAnimationWhileWorking": false, // If the producer bouncing animation while working should be disabled.
+		"DisableBouncingAnimationWhileWorking": false,
 		"WorkingOutdoors": null,
-		"ProducingAnimation": { // Set a configuration for animating the producing state of the machine. Default is null.
-            "RelativeFrameIndex": [1], //Index and order of the frames that should be used for the animation. Index start at zero, the base frame and index of the non producing state. Extra frames are content from that frame. Extra frames can be added with Json Assets or Content Patcher.
-            "FrameInterval": 10 // Amount of game ticks between frames. Default is 10
+		"ProducingAnimation": {
+            "RelativeFrameIndex": [1],
+            "FrameInterval": 10
         },
 		"ReadyAnimation": 
         {

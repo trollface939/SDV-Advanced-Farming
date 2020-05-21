@@ -259,15 +259,15 @@
 			{
 				"OutputProbability": 0.20, 
 				"OutputIdentifier": "Liquid Fertilizer", //Quality Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
+				"OutputStack": 2, 
+				"OutputMaxStack": 6,
 				 
 			},
 			{
 				"OutputProbability": 0.65, 
 				"OutputIdentifier": 368, //Basic Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
+				"OutputStack": 2, 
+				"OutputMaxStack": 6,
 				 
 			}
 		],
