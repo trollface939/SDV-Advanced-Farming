@@ -253,7 +253,6 @@
 	},
 	{ 
 		"ProducerName": "Aquaponics Aquarium", 
-        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
 		"AdditionalOutputs": [ 
 			{
 				//5x Roe Output
