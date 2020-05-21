@@ -237,6 +237,20 @@
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
 	},
+	{
+		"ProducerName": "Fish Hatchery", 
+		"InputIdentifier": 812, //Roe
+		"InputStack": 5,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": -4, //Fish Index
+		"OutputStack": 5,
+		"OutputMaxStack": 5,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
 	{ 
 		"ProducerName": "Aquaponics Aquarium", 
         "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics

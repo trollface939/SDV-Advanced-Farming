@@ -10,6 +10,7 @@
         	"RelativeFrameIndex": [2]
    		}
 	},
+	
 	{
 		"ProducerName": "Aquaponics Aquarium",
 		"NoInputStartMode": "DayUpdate",
@@ -17,6 +18,21 @@
 		"AlternateFrameWhenReady": false,
 		"DisableBouncingAnimationWhileWorking": true,
 		"WorkingOutdoors": false,
+	},
+	{
+		"ProducerName": "Fish Hatchery",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": true,
+		"WorkingOutdoors": null,
+		"ProducingAnimation": {
+            "RelativeFrameIndex": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+            "FrameInterval": 8
+        },
+		"ReadyAnimation": 
+        {
+        	"RelativeFrameIndex": [0]
+   		}
 	},
 	{
 		"ProducerName": "Rock Smasher",
