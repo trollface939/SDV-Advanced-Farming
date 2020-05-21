@@ -121,7 +121,7 @@
 		"ProducerName": "Rock Smasher", 
 		"InputIdentifier": 390, //Stone
 		"InputStack": 1,
-		"FuelIdentifier": null,
+		"FuelIdentifier": 80, //Quartz
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Silt",
@@ -136,8 +136,8 @@
 		"ProducerName": "Rock Smasher", 
 		"InputIdentifier": "Silt", 
 		"InputStack": 1,
-		"FuelIdentifier": null,
-		"FuelStack": 1,
+		"FuelIdentifier": 86, //Earth Crystal
+		"FuelStack": 0,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Sand",
 		"OutputStack": 1,
@@ -151,8 +151,8 @@
 		"ProducerName": "Rock Smasher", 
 		"InputIdentifier": "Sand", 
 		"InputStack": 1,
-		"FuelIdentifier": null,
-		"FuelStack": 1,
+		"FuelIdentifier": 92, //Tree Sap
+		"FuelStack": 0,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": 330,
 		"OutputStack": 1,
