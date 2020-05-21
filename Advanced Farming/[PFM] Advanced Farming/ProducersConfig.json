@@ -13,7 +13,6 @@
 	
 	{
 		"ProducerName": "Aquaponics Aquarium",
-		"NoInputStartMode": "DayUpdate",
 		"AlternateFrameProducing": false,
 		"AlternateFrameWhenReady": false,
 		"DisableBouncingAnimationWhileWorking": true,

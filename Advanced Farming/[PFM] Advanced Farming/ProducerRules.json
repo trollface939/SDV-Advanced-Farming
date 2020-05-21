@@ -252,7 +252,11 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{ 
-		"ProducerName": "Aquaponics Aquarium", 
+		"ProducerName": "Aquaponics Aquarium",
+		"InputIdentifier": -4,
+		"InputStack": 0,
+		"MinutesUntilReady": 1600,
+		"MinutesUntilReady": 60,
 		"AdditionalOutputs": [ 
 			{
 				//5x Roe Output
@@ -260,14 +264,14 @@
 				"OutputIdentifier": 812, //Roe output
 				"OutputStack": 15, 
 				"OutputMaxStack": 25,
-				 
+				"PreserveType": "Roe",
 			},
 			{
 				"OutputProbability": 0.10, 
 				"OutputIdentifier": 812, //Roe output
 				"OutputStack": 3, 
 				"OutputMaxStack": 5,
-				 
+				"PreserveType": "Roe",
 			},
 			{
 				"OutputProbability": 0.20, 
@@ -288,7 +292,6 @@
 		"DelayedSounds": [ { "bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"
 	},
-	
 	{ 
 		"ProducerName": "Hydroponic Bed", 
 		"InputIdentifier": 472, //Parsnip Seeds
