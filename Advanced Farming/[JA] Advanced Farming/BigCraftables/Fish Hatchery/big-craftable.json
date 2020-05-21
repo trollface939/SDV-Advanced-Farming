@@ -3,7 +3,7 @@
     "Description": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.",
     "Price": 100,
     "ProvidesLight": true,
-	"ReserveExtraIndexCount": 20,
+	"ReserveExtraIndexCount": 19,
     "Recipe":
     { 
         "ResultCount": 1,
