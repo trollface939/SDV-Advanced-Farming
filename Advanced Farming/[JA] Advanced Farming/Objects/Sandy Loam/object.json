@@ -1,16 +1,10 @@
 {
     "Name": "Sandy Loam", //The name you would like your object to have, this should be identical to the subfolder name.
     "Description": "Considered the ideal garden soil and consists of a mix of the three basic textures: Clay, Sand and Silt.", //Description of the product.
-    "Category": "Crafting", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
+    "Category": "Metal", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
     "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
-    "EdibleIsDrink": false, //Set to true or false depending on which animation you want to show (drinking or eating).
-    "EdibleBuffs": null, //Either set to null or include all required valid fields. It will not work if you only use the needed fields. 
-                   //Set unused fields to 0. Supports negative values. Required valid fields: Farming, Fishing, Mining, Luck, Duration. Optional valid fields: Foraging, MaxStamina, MagnetRadius, Speed, Defense, Attack.
-                   //Can be negative.
-
     "Price": 0, //How much your item sells for.
     "IsColored": false, //Set to false.
-
     "Recipe": //Begins the recipe block.
     {
         "ResultCount": 1, //How many of the product does the recipe produce.
@@ -29,9 +23,6 @@
         },
         
       ],
-
-    
-
     "CanPurchase": true, //Set this to true if IsDefault is set to false or excluded from the json.
     "PurchaseFrom": "Pierre", //Who you can purchase the recipe from. Valid entries are: Willy, Pierre, Robin, Sandy, Krobus, Clint, Harvey, Marlon, and Dwarf. If an NPC isn't listed here they can't be used. Pierre is the default vendor.
     "PurchasePrice": 500, //How much you can purchase the recipe for.
