@@ -9,13 +9,25 @@
         "ResultCount": 1,
         "Ingredients": [
         {
-            "Object": "Hydroponic Bed", //Beds
+            "Object": "Sandy Loam",
             "Count": 2,
         },
 		{
             "Object": 388, //Wood
             "Count": 50,
-        }
+        },
+		{
+            "Object": 178, //Hay
+            "Count": 10,
+        },
+        {
+            "Object": "Liquid Fertilizer",
+            "Count": 2,
+        },
+		{
+			"Object": 787, //Battery Pack
+			"Count": 2,
+		},
 		],
 		
 		"CanPurchase": true, 
