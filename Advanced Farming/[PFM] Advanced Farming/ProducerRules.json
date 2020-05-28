@@ -237,6 +237,287 @@
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
 	},
+	{
+		"ProducerName": "Fish Hatchery",
+		"InputIdentifier": "812", //Roe
+		"InputStack": 5,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 11200,
+		"OutputIdentifier": "812", //Roe back if failure
+		"OutputStack": 5,
+		"OutputMaxStack": 5,
+		"AdditionalOutputs": [
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "698", //Sturgeon
+				"RequiredInputParentIdentifier": ["698"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "128", //Pufferfish
+				"RequiredInputParentIdentifier": ["128"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "129", //Anchovy
+				"RequiredInputParentIdentifier": ["129"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "130", //Tuna
+				"RequiredInputParentIdentifier": ["130"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "131", //Sardine
+				"RequiredInputParentIdentifier": ["131"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "132", //Bream
+				"RequiredInputParentIdentifier": ["132"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "136", //Largemouth Bass
+				"RequiredInputParentIdentifier": ["136"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "137", //Smallmouth Bass
+				"RequiredInputParentIdentifier": ["137"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "138", //Rainbow Trout
+				"RequiredInputParentIdentifier": ["138"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "139", //Salmon
+				"RequiredInputParentIdentifier": ["139"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "140", //Walleye
+				"RequiredInputParentIdentifier": ["140"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "141", //Perch
+				"RequiredInputParentIdentifier": ["141"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "142", //Carp
+				"RequiredInputParentIdentifier": ["142"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "143", //Catfish
+				"RequiredInputParentIdentifier": ["143"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "144", //Pike
+				"RequiredInputParentIdentifier": ["144"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "145", //Sunfish
+				"RequiredInputParentIdentifier": ["145"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "146", //Red Mullet
+				"RequiredInputParentIdentifier": ["146"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "147", //Herring
+				"RequiredInputParentIdentifier": ["147"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "148", //Eel
+				"RequiredInputParentIdentifier": ["148"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "149", //Octupus
+				"RequiredInputParentIdentifier": ["149"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "150", //Red Snapper
+				"RequiredInputParentIdentifier": ["150"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "698", //Sturgeon
+				"RequiredInputParentIdentifier": ["698"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "698", //Sturgeon
+				"RequiredInputParentIdentifier": ["698"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "154", //Sea Cucumber
+				"RequiredInputParentIdentifier": ["154"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "155", //Super Cucumber
+				"RequiredInputParentIdentifier": ["155"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "156", //Ghostfish
+				"RequiredInputParentIdentifier": ["156"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "158", //Stonefish
+				"RequiredInputParentIdentifier": ["158"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "164", //Sandfish
+				"RequiredInputParentIdentifier": ["164"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "165", //Scorpion Carp
+				"RequiredInputParentIdentifier": ["165"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "699", //Tiger Trout
+				"RequiredInputParentIdentifier": ["698"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "700", //Bullhead
+				"RequiredInputParentIdentifier": ["700"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "701", //Tilapia
+				"RequiredInputParentIdentifier": ["701"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "702", //Chub
+				"RequiredInputParentIdentifier": ["702"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "704", //Dorado
+				"RequiredInputParentIdentifier": ["704"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "705", //Albacore
+				"RequiredInputParentIdentifier": ["705"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "706", //Shad
+				"RequiredInputParentIdentifier": ["706"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "707", //Lingcod
+				"RequiredInputParentIdentifier": ["707"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "708", //Halibut
+				"RequiredInputParentIdentifier": ["708"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "715", //Lobster
+				"RequiredInputParentIdentifier": ["715"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "716", //Crayfish
+				"RequiredInputParentIdentifier": ["716"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "717", //Crab
+				"RequiredInputParentIdentifier": ["717"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "718", //Cockle
+				"RequiredInputParentIdentifier": ["718"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "719", //Mussle
+				"RequiredInputParentIdentifier": ["719"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "720", //Shrimp
+				"RequiredInputParentIdentifier": ["720"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "721", //Snail
+				"RequiredInputParentIdentifier": ["721"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "722", //Periwinkle
+				"RequiredInputParentIdentifier": ["722"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "723", //Oyster
+				"RequiredInputParentIdentifier": ["723"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "795", //Void Salmon
+				"RequiredInputParentIdentifier": ["795"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "796", //Slimejack
+				"RequiredInputParentIdentifier": ["796"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "799", //Spook Fish
+				"RequiredInputParentIdentifier": ["799"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "800", //Blobfish
+				"RequiredInputParentIdentifier": ["800"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "267", //Flounder
+				"RequiredInputParentIdentifier": ["267"]
+			},
+			{ 
+				"OutputProbability": 1,
+				"OutputIdentifier": "269", //Midnight Carp
+				"RequiredInputParentIdentifier": ["269"]
+			},
+		],
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
 	{ 
 		"ProducerName": "Aquaponics Aquarium", 
         "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics

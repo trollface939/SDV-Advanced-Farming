@@ -1,10 +1,9 @@
 ﻿{
 	"Name": "[PFM] Advanced Farming",
 	"Author": "KateAndSky",
-	"Version": "1.0.0",
+	"Version": "1.2.2",
 	"Description": "Adds end-game options for farming when your greenhouse just isn't cutting it anymore.",
 	"UniqueID": "KAS.PFM.AdvancedFarming",
-	"MinimumApiVersion": "3.0.0",
 	"UpdateKeys": ["Nexus:6070"],
 	"ContentPackFor": {
 		"UniqueID": "DIGUS.ProducerFrameworkMod"
