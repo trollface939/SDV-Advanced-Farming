@@ -1214,7 +1214,7 @@
 	
 	{ 
 		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 473, //Rice Shoot
+		"InputIdentifier": 273, //Rice Shoot
 		"InputStack": 4,
 		"MinutesUntilReady": 9600,
 		"AdditionalOutputs": [ 
@@ -2951,7 +2951,7 @@
 				"OutputProbability": 0.25, 
 				"OutputIdentifier": 188, //Green Beans
 				"OutputQuality": 4, 
-				"OutputStack": 24, 
+				"OutputStack": 48, 
 				"OutputMaxStack": 60,
 				"MinutesUntilReady": 40000,
 				"RequiredFuel": { 369: 2 }
@@ -3722,7 +3722,7 @@
 	
 	{ 
 		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 473, //Rice Shoot
+		"InputIdentifier": 273, //Rice Shoot
 		"InputStack": 8,
 		"MinutesUntilReady": 9600,
 		"AdditionalOutputs": [ 
