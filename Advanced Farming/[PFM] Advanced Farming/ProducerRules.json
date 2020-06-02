@@ -238,6 +238,21 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
+		"ProducerName": "Seedling Tray", 
+		"InputIdentifier": 472, //Parsnip Seeds
+		"InputStack": 10,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Seedling Bag",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
 		"ProducerName": "Fish Hatchery",
 		"InputIdentifier": "812", //Roe
 		"InputStack": 5,
@@ -556,6 +571,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"
 	},
+	
 	
 	{ 
 		"ProducerName": "Hydroponic Bed", 
