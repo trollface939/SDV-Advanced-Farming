@@ -240,13 +240,15 @@
 	{
 		"ProducerName": "Seedling Tray", 
 		"InputIdentifier": 472, //Parsnip Seeds
-		"InputStack": 10,
+		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Seedling Bag",
+		"OutputGenericParentName": "Parsnip",
 		"OutputStack": 1,
 		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
 		"RequiredOutdoors": null,
 		"Sounds": [ "furnace" ], 
 		"PlacingAnimation": null, 
@@ -575,7 +577,7 @@
 	
 	{ 
 		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 472, //Parsnip Seeds
+		"InputIdentifier": "Seedling Bag", //Parsnip Seeds
 		"InputStack": 4,
 		"MinutesUntilReady": 6400,
 		"AdditionalOutputs": [ 
@@ -587,8 +589,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["472"]				 
 			},
 			{
 				//Gold Output
@@ -598,8 +600,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Silver Output
@@ -609,8 +611,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Iridium Output
@@ -620,8 +622,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Gold Output
@@ -631,8 +633,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Silver Output
@@ -642,8 +644,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["472"]
 			}
 		],
 		"Sounds": [ "Ship" ], 
