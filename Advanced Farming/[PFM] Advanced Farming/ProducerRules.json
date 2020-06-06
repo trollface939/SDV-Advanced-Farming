@@ -240,7 +240,7 @@
 	{
 		"ProducerName": "Seedling Tray", 
 		"InputIdentifier": -74, //Any Seeds
-		"ExcludeIdentifiers": ["251", "273", "309", "310", "311", "628", "629", "630", "631", "632", "633"]
+		"ExcludeIdentifiers": ["251", "273", "309", "310", "311", "628", "629", "630", "631", "632", "633"],
 		"InputStack": 4,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Seedling Bag",
@@ -535,39 +535,35 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{ 
-		"ProducerName": "Aquaponics Aquarium", 
-        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
-		"AdditionalOutputs": [ 
-			{
-				//5x Roe Output
-				"OutputProbability": 0.5, 
-				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 15, 
-				"OutputMaxStack": 25,
-				 
-			},
-			{
-				"OutputProbability": 0.10, 
-				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 3, 
-				"OutputMaxStack": 5,
-				 
-			},
-			{
-				"OutputProbability": 0.20, 
-				"OutputIdentifier": "Liquid Fertilizer", //Quality Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
-				 
-			},
-			{
-				"OutputProbability": 0.65, 
-				"OutputIdentifier": 368, //Basic Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
-				 
-			}
-		],
+		"ProducerName": "Aquaponics Aquarium",
+		"MinutesUntilReady": 4400,
+		"OutputIdentifier": "Polluted Aquarium Water", 
+		"OutputStack": 1,				
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aquarium Filter", 
+		"InputIdentifier": "Polluted Aquarium Water", //Identifier of the input. Can be the index, name or category.
+		"InputStack": 1,
+		"MinutesUntilReady": 1000,
+		"OutputIdentifier": "Liquid Fertilizer",
+		"OutputStack": 6,	
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aquarium Breeding Tank", 
+		"InputIdentifier": -4, //Fish
+		"InputStack": 2,
+		"MinutesUntilReady": 6400,
+		"OutputIdentifier": 812, //Roe output
+		"OutputStack": 8, 
+		"OutputName": "{inputName} Roe",
+		"PreserveType": "Roe", 
+		"KeepInputParentIndex": true,
 		"PlacingAnimation": "Bubbles",
 		"DelayedSounds": [ { "bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"

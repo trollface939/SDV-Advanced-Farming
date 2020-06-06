@@ -23,11 +23,43 @@
 	},
 	{
 		"ProducerName": "Aquaponics Aquarium",
-		"NoInputStartMode": "DayUpdate",
-		"AlternateFrameProducing": false,
+		"NoInputStartMode": "Placement",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": true,
+		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"WorkingOutdoors": false,
+		"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3],
+            "FrameInterval": 60
+        },
+		"ReadyAnimation": 
+        {
+        	"RelativeFrameIndex": [4]
+   		}
+	},
+	{
+		"ProducerName": "Aquarium Filter",
+		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": false,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
 		"WorkingOutdoors": false,
+		"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1]
+        },
+	},
+	{
+		"ProducerName": "Aquarium Breeding Tank",
+	//	"NoInputStartMode": "DayUpdate",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"WorkingOutdoors": false,
+			"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1]
+        },
 	},
 	{
 		"ProducerName": "Fish Hatchery",
