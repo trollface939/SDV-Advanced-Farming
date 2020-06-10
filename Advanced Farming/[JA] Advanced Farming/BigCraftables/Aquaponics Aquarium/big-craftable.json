@@ -2,7 +2,7 @@
     "Name": "Aquaponics Aquarium",
     "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Creates Fertilizer with a chance to produce either Roe or Quality Fertilizer",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 4,
     "Recipe":
     { 

@@ -2,7 +2,7 @@
     "Name": "Hydroponic Bed",
     "Description": "A raised bed that has artificial soil to allow for full control of nutrients.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 2,
     "Recipe":
     { 

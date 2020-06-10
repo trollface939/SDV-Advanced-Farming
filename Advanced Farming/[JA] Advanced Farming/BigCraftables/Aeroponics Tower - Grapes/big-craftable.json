@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Grapes",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron
+				"Count": 5,
+			},
+			{
+				"Object": 388, //Wood
+				"Count": 50,
+			},
+			{
+				"Object": 787, //Battery Pack
+				"Count": 1,
+			},
+			{
+				"Object": "Grape Starter Sprouts", //Stone
+				"Count": 1,
+			},
+			{
+				"Object": 336, //Gold 
+				"Count": 2,
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 5000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Grapes", //Spansih
+            "ko": "Aeroponics Tower - Grapes", //Korean
+            "de": "Aeroponics Tower - Grapes", //German
+            "fr": "Aeroponics Tower - Grapes", //French
+            "hu": "Aeroponics Tower - Grapes", //Hungarian
+            "it": "Aeroponics Tower - Grapes", //Italian
+            "ja": "Aeroponics Tower - Grapes", //Japanese
+            "pt": "Aeroponics Tower - Grapes", //Portuguese
+            "ru": "Aeroponics Tower - Grapes", //Russian
+            "tr": "Aeroponics Tower - Grapes", //Turkish
+            "zh": "Aeroponics Tower - Grapes" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes.", //Turkish
+            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Grapes." //Chinese (Simplified)
+        }
+    }

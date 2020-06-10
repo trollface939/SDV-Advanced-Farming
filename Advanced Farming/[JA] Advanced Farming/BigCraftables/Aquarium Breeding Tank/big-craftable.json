@@ -2,7 +2,7 @@
     "Name": "Aquarium Breeding Tank",
     "Description": "A small semi-independant tank used to breed fish and produce Roe. Place adjacent to an Aquarium.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 1,
     "Recipe":
     { 

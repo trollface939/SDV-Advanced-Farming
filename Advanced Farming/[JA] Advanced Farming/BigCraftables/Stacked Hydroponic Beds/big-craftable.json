@@ -2,7 +2,7 @@
     "Name": "Stacked Hydroponic Beds",
     "Description": "A vertically stacked pair of Hydroponic beds. Twice the farming capacity for the same footprint.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 2,
     "Recipe":
     { 

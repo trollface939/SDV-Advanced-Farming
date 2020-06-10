@@ -2,7 +2,7 @@
     "Name": "Seedling Tray",
     "Description": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 2,
     "Recipe":
     { 

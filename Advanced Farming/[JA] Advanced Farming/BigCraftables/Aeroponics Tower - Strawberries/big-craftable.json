@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Strawberries",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron
+				"Count": 5,
+			},
+			{
+				"Object": 388, //Wood
+				"Count": 50,
+			},
+			{
+				"Object": 787, //Battery Pack
+				"Count": 1,
+			},
+			{
+				"Object": "Strawberry Seeds Sprouts", //Stone
+				"Count": 1,
+			},
+			{
+				"Object": 336, //Gold 
+				"Count": 2,
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 5000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Strawberries", //Spansih
+            "ko": "Aeroponics Tower - Strawberries", //Korean
+            "de": "Aeroponics Tower - Strawberries", //German
+            "fr": "Aeroponics Tower - Strawberries", //French
+            "hu": "Aeroponics Tower - Strawberries", //Hungarian
+            "it": "Aeroponics Tower - Strawberries", //Italian
+            "ja": "Aeroponics Tower - Strawberries", //Japanese
+            "pt": "Aeroponics Tower - Strawberries", //Portuguese
+            "ru": "Aeroponics Tower - Strawberries", //Russian
+            "tr": "Aeroponics Tower - Strawberries", //Turkish
+            "zh": "Aeroponics Tower - Strawberries" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries.", //Turkish
+            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Strawberries." //Chinese (Simplified)
+        }
+    }

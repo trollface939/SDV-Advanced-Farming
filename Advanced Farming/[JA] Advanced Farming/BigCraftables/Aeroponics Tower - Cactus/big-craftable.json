@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Cactus",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron
+				"Count": 5,
+			},
+			{
+				"Object": 388, //Wood
+				"Count": 50,
+			},
+			{
+				"Object": 787, //Battery Pack
+				"Count": 1,
+			},
+			{
+				"Object": "Cactus Seeds Sprouts", //Stone
+				"Count": 1,
+			},
+			{
+				"Object": 336, //Gold 
+				"Count": 2,
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 5000,
+		"PurchaseRequirements": null,
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Cactus", //Spansih
+            "ko": "Aeroponics Tower - Cactus", //Korean
+            "de": "Aeroponics Tower - Cactus", //German
+            "fr": "Aeroponics Tower - Cactus", //French
+            "hu": "Aeroponics Tower - Cactus", //Hungarian
+            "it": "Aeroponics Tower - Cactus", //Italian
+            "ja": "Aeroponics Tower - Cactus", //Japanese
+            "pt": "Aeroponics Tower - Cactus", //Portuguese
+            "ru": "Aeroponics Tower - Cactus", //Russian
+            "tr": "Aeroponics Tower - Cactus", //Turkish
+            "zh": "Aeroponics Tower - Cactus" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti.", //Turkish
+            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Cacti." //Chinese (Simplified)
+        }
+    }

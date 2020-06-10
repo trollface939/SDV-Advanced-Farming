@@ -2,7 +2,7 @@
     "Name": "Aquarium Filter",
     "Description": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 1,
     "Recipe":
     { 
