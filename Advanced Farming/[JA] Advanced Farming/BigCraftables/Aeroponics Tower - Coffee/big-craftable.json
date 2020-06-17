@@ -9,24 +9,24 @@
         "ResultCount": 1,
         "Ingredients": [
 			{
-				"Object": 335, //Iron
-				"Count": 5,
+				"Object": "Aeroponics Tower Base", 
+				"Count": 1
 			},
 			{
-				"Object": 388, //Wood
-				"Count": 50,
+				"Object": "Aeroponics Tower Frame", 
+				"Count": 2
 			},
 			{
-				"Object": 787, //Battery Pack
-				"Count": 1,
+				"Object": "Water Pump", 
+				"Count": 1
+			},
+			{
+				"Object": "Pipes", 
+				"Count": 4
 			},
 			{
 				"Object": "Coffee Bean Sprouts", //Stone
-				"Count": 1,
-			},
-			{
-				"Object": 336, //Gold 
-				"Count": 2,
+				"Count": 1
 			}
 		],
 		

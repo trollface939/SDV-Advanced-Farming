@@ -1,6 +1,17 @@
 ﻿[
 	{
-		"ProducerName": "Hydroponic Bed",
+		"ProducerName": "Raised Bed",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": true,
+		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
+		"WorkingOutdoors": true,
+		"ReadyAnimation": 
+        {
+        	"RelativeFrameIndex": [2]
+   		}
+	},
+	{
+		"ProducerName": "Hydroponics System",
 		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": true,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.
@@ -11,7 +22,7 @@
    		}
 	},
 	{
-		"ProducerName": "Stacked Hydroponic Beds",
+		"ProducerName": "Large Hydroponics System",
 		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": true,
 		"DisableBouncingAnimationWhileWorking": true, // If the producer bouncing animation while working should be disabled.

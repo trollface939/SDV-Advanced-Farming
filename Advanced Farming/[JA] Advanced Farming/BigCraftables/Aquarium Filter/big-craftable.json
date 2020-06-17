@@ -10,19 +10,15 @@
         "Ingredients": [
 			{
 				"Object": 335, //Iron
-				"Count": 2,
+				"Count": 2
 			},
 			{
-				"Object": 388, //Wood
-				"Count": 25,
-			},
-			{
-				"Object": 787, //Battery Pack
-				"Count": 1,
+				"Object": "Frame Components", //Wood
+				"Count": 1
 			},
 			{
 				"Object": 390, //Stone
-				"Count": 15,
+				"Count": 30
 			},
 		],
 		
