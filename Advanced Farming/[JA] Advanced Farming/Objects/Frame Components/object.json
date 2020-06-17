@@ -11,7 +11,11 @@
         "Ingredients": [
 			{
 				"Object": 388, //Wood
-				"Count": 40
+				"Count": 20
+			},
+			{
+				"Object": 709, //Wood
+				"Count": 20
 			},
 			{
 				"Object": 335, //Iron
