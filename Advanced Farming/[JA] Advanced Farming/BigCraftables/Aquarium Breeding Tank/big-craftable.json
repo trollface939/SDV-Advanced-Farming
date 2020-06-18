@@ -24,8 +24,8 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 4000,
-		"PurchaseRequirements": null,
+		"PurchasePrice": 200,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
     },
         "NameLocalization": //Used for localization. 
         { 

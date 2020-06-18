@@ -25,6 +25,6 @@
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
-		"PurchaseRequirements": null
+		"PurchaseRequirements": ["j 56", "f Demetrius 500]
     }
 }
