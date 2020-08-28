@@ -1,38 +1,39 @@
 {
     "Name": "Aquaponics Aquarium",
-    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Creates Fertilizer with a chance to produce either Roe or Quality Fertilizer",
+    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 4,
     "Recipe":
     { 
         "ResultCount": 1,
         "Ingredients": [
 			{
-				"Object": 335, //Iron
-				"Count": 5,
+				"Object": "Frame Components",
+				"Count": 5
 			},
 			{
-				"Object": 388, //Wood
-				"Count": 50,
+				"Object": 338, // Refined Quartz, for the glass
+				"Count": 5
 			},
 			{
-				"Object": 787, //Battery Pack
-				"Count": 1,
+				"Object": "Water Pump",
+				"Count": 1
 			},
 			{
 				"Object": 390, //Stone
-				"Count": 10,
+				"Count": 10
 			},
 			{
 				"Object": -4, //5 of any Fish
-				"Count": 5,
+				"Count": 5
 			}
 		],
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 4000,
-		"PurchaseRequirements": null,
+		"PurchasePrice": 450,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
     },
         "NameLocalization": //Used for localization. 
         { 
@@ -50,16 +51,16 @@
         },
         "DescriptionLocalization": //Used for localization. 
         { 
-            "es": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Spansih
-            "ko": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Korean
-            "de": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //German
-            "fr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //French
-            "hu": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Hungarian
-            "it": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe..", //Italian
-            "ja": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Japanese
-            "pt": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Portuguese
-            "ru": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Russian
-            "tr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe.", //Turkish
-            "zh": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Applies Fertlizer to nearby Hydroponics Beds while producing Roe." //Chinese (Simplified)
+            "es": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Spansih
+            "ko": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Korean
+            "de": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //German
+            "fr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //French
+            "hu": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Hungarian
+            "it": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Italian
+            "ja": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Japanese
+            "pt": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Portuguese
+            "ru": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Russian
+            "tr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Turkish
+            "zh": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers." //Chinese (Simplified)
         }
     }

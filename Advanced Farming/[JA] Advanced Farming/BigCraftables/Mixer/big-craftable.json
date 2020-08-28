@@ -2,7 +2,7 @@
     "Name": "Mixer",
     "Description": "A Mixing machine that helps disolve materials in water.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 3,
     "Recipe":
     { 
@@ -33,8 +33,8 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 2000,
-		"PurchaseRequirements": null,
+		"PurchasePrice": 200,
+		"PurchaseRequirements": ["j 112", "f Demetrius 1000"],
     },
         "NameLocalization": //Used for localization. 
         { 

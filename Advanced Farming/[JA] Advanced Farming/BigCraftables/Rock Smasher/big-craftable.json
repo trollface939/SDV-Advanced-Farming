@@ -2,7 +2,7 @@
     "Name": "Rock Smasher",
     "Description": "A machine that smashes items for crafting purposes.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 9,
     "Recipe":
     { 
@@ -32,8 +32,8 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Robin",
-		"PurchasePrice": 4000,
-		"PurchaseRequirements": null,
+		"PurchasePrice": 300,
+		"PurchaseRequirements": ["j 56", "f Demetrius 500"],
     },
         "NameLocalization": //Used for localization. 
         { 

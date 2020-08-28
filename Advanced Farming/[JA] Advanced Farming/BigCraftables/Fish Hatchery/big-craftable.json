@@ -2,7 +2,7 @@
     "Name": "Fish Hatchery",
     "Description": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.",
     "Price": 100,
-    "ProvidesLight": true,
+    "ProvidesLight": false,
 	"ReserveExtraIndexCount": 19,
     "Recipe":
     { 
@@ -27,8 +27,8 @@
 		
 		"CanPurchase": true, 
 		"PurchaseFrom": "Willy",
-		"PurchasePrice": 4000,
-		"PurchaseRequirements": null,
+		"PurchasePrice": 500,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
     },
         "NameLocalization": //Used for localization. 
         { 

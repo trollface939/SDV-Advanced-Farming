@@ -1,5 +1,5 @@
 ﻿[
-		{
+	{
 		"ProducerName": "Compost Bin", 
 		"InputIdentifier": "Biomass", 
 		"InputStack": 1,
@@ -12,8 +12,8 @@
 		"RequiredOutdoors": null,
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
 		"ProducerName": "Compost Bin", 
 		"InputIdentifier": "Potent Biomass", 
 		"InputStack": 1,
@@ -26,8 +26,22 @@
 		"RequiredOutdoors": null,
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
+		"ProducerName": "Furnace", 
+		"InputIdentifier": "Raw Bioplastic", 
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 60,
+        "OutputIdentifier": "Plastic Bar", // Basic Fertilizer
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimationColorName": "White"
+	},
+	{
 		"ProducerName": "Mixer", 
 		"InputIdentifier": 369, //Quality Fertilizer
 		"InputStack": 1,
@@ -41,12 +55,12 @@
 		"Sounds": [ "bubbles" ], 
 		"PlacingAnimation": "Bubbles",
 		"PlacingAnimationColorName": "White"
-		},
-		{
+	},
+	{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": "Biomass", 
+		"InputIdentifier": -5, 
 		"InputStack": 1,
-		"FuelIdentifier": -5,
+		"FuelIdentifier": "Biomass",
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
@@ -59,9 +73,9 @@
 	},
 	{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": "Biomass", 
+		"InputIdentifier": -6, 
 		"InputStack": 1,
-		"FuelIdentifier": -6,
+		"FuelIdentifier": "Biomass",
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
@@ -74,9 +88,9 @@
 	},
 	{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": "Biomass", 
+		"InputIdentifier": 392, 
 		"InputStack": 1,
-		"FuelIdentifier": 392,
+		"FuelIdentifier": "Biomass",
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
@@ -89,9 +103,9 @@
 	},
 	{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": "Biomass", 
+		"InputIdentifier": 394, 
 		"InputStack": 1,
-		"FuelIdentifier": 394,
+		"FuelIdentifier": "Biomass",
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
@@ -104,12 +118,25 @@
 	},
 	{
 		"ProducerName": "Mixer", 
-		"InputIdentifier": "Biomass", 
+		"InputIdentifier": 372, 
 		"InputStack": 1,
-		"FuelIdentifier": 372,
+		"FuelIdentifier": "Biomass",
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
         "OutputIdentifier": "Potent Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "bubbles" ], 
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Mixer", 
+		"InputIdentifier": "Coconut Biomass", 
+		"InputStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Glycerol",
 		"OutputStack": 1,
 		"OutputMaxStack": 1,
 		"RequiredOutdoors": null,
@@ -179,7 +206,8 @@
 	},
 	{
 		"ProducerName": "Rock Smasher", 
-		"InputIdentifier": -79, 
+		"InputIdentifier": -79,
+		"ExcludeIdentifiers": [ "88" ],
 		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
@@ -194,7 +222,22 @@
 	},
 	{
 		"ProducerName": "Rock Smasher", 
-		"InputIdentifier": -80, 
+		"InputIdentifier": 88,
+		"InputStack": 1,
+		"FuelIdentifier": null,
+		"FuelStack": 1,
+		"MinutesUntilReady": 30,
+        "OutputIdentifier": "Coconut Biomass",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"RequiredOutdoors": null,
+		"Sounds": [ "furnace" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Rock Smasher", 
+		"InputIdentifier": -80,
 		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
@@ -209,7 +252,7 @@
 	},
 	{
 		"ProducerName": "Rock Smasher", 
-		"InputIdentifier": -81, 
+		"InputIdentifier": -81,
 		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
@@ -224,28 +267,13 @@
 	},
 	{
 		"ProducerName": "Rock Smasher", 
-		"InputIdentifier": 771, 
-		"InputStack": 10,
-		"FuelIdentifier": null,
-		"FuelStack": 1,
-		"MinutesUntilReady": 30,
-        "OutputIdentifier": "Biomass",
-		"OutputStack": 1,
-		"OutputMaxStack": 1,
-		"RequiredOutdoors": null,
-		"Sounds": [ "furnace" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	{
-		"ProducerName": "Seedling Tray", 
-		"InputIdentifier": 472, //Parsnip Seeds
+		"InputIdentifier": 771,
 		"InputStack": 1,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
 		"MinutesUntilReady": 30,
-        "OutputIdentifier": "Seedling Bag",
-		"OutputGenericParentName": "Parsnip",
+        "OutputIdentifier": "Biomass",
+		"OutputName": "{inputName} Biomass",
 		"OutputStack": 1,
 		"OutputMaxStack": 1,
 		"KeepInputParentIndex": true,
@@ -255,8 +283,871 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
+		"ProducerName": "Seedling Tray", 
+		"InputIdentifier": -74, //Any Seeds
+		"ExcludeIdentifiers": ["251", "273", "309", "310", 
+								"311", "628", "629", "630", 
+								"631", "632", "633", "448", 
+								"473", "481", "433", "487", 
+								"493", "301", "302", "482",
+								"745", "480", "802"],
+		"InputStack": 4,
+		"MinutesUntilReady": 2880,
+        "OutputIdentifier": "Seedling Bag",
+		"OutputName": "{inputName} Sprouts",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 273, // Unmilled Rice
+		"OutputIdentifier": 271, // Rice Shoots
+		"MinutesUntilReady": 2880,
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputIdentifier": 251, 
+		"InputStack": 4,
+		"OutputIdentifier": "Tea Mature Saplings",
+		"MinutesUntilReady": 27360,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputIdentifier": 448,
+		"InputStack": 4,
+		"OutputIdentifier": "Eggplant Seedlings",
+		"MinutesUntilReady": 1440,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 473,
+		"OutputIdentifier": "Bean Seedlings" ,
+		"MinutesUntilReady": 10080,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 481,
+		"OutputIdentifier": "Blueberry Seedlings",
+		"MinutesUntilReady": 12960,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 802,
+		"OutputIdentifier": "Cactus Seedlings", 
+		"MinutesUntilReady": 12960,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 433,
+		"OutputIdentifier": "Coffee Bean Seedlings",
+		"MinutesUntilReady": 11520,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 487,
+		"OutputIdentifier": "Corn Seedlings", 
+		"MinutesUntilReady": 14400,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 493,
+		"OutputIdentifier": "Cranberry Seedlings", 
+		"MinutesUntilReady": 2880,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 301,
+		"OutputIdentifier": "Grape Seedlings", 
+		"MinutesUntilReady": 10080,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 302,
+		"OutputIdentifier": "Hops Seedlings", 
+		"MinutesUntilReady": 14400,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 482,
+		"OutputIdentifier": "Pepper Seedlings", 
+		"MinutesUntilReady": 2880,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 745,
+		"OutputIdentifier": "Strawberry Seedlings", 
+		"MinutesUntilReady": 5760,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 480,
+		"OutputIdentifier": "Tomato Seedlings",
+		"MinutesUntilReady": 10080,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Seedling Tray", 
+		"InputStack": 4,
+		"InputIdentifier": 499,
+		"OutputIdentifier": "Ancient Seedlings",
+		"MinutesUntilReady": 30240,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"KeepInputParentIndex": true,
+		"RequiredOutdoors": null,
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Ancient Fruits", 
+		"MinutesUntilReady": 1440,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 10080
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 10080
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 10080
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 10080
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Eggplants", 
+		"MinutesUntilReady": 7200,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 272, //Eggplant
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 7200
+				 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 272, //Eggplant
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 7200
+				 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 272, //Eggplant
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 7200	 
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 272, //Eggplant
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 7200	 
+			}
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},	
+	{ 
+		"ProducerName": "Aeroponics Tower - Beans", 
+		"MinutesUntilReady": 4320,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 188, //Green Beans
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 188, //Green Beans
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320	 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 188, //Green Beans
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 188, //Green Beans
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Blueberries", 
+		"MinutesUntilReady": 5760,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 258, //Blueberry
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Cactus", 
+		"MinutesUntilReady": 1440,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 90, //Cactus Fruit
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Coffee", 
+		"MinutesUntilReady": 2880,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 4, 
+				"OutputStack": 16, 
+				"OutputMaxStack": 32,
+				"MinutesUntilReady": 2880
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 2, 
+				"OutputStack": 16, 
+				"OutputMaxStack": 32,
+				"MinutesUntilReady": 2880
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 1, 
+				"OutputStack": 16, 
+				"OutputMaxStack": 32,
+				"MinutesUntilReady": 2880
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 433, //Coffee Bean
+				"OutputQuality": 0, 
+				"OutputStack": 16, 
+				"OutputMaxStack": 32,
+				"MinutesUntilReady": 2880
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Corn", 
+		"MinutesUntilReady": 5760,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 270, //Corn
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 270, //Corn
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 270,//Corn
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 270, //Corn
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Cranberries", 
+		"MinutesUntilReady": 7200,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 4, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 16,
+				"MinutesUntilReady": 7200
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 2, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 16,
+				"MinutesUntilReady": 7200
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 1, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 16,
+				"MinutesUntilReady": 7200
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 282, //Cranberries
+				"OutputQuality": 0, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 16,
+				"MinutesUntilReady": 7200
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Grapes", 
+		"MinutesUntilReady": 4320,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 398, //Grapes
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Hops", 
+		"MinutesUntilReady": 1440,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 304, //Hops
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 304, //Hops
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 304, //Hops
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 304, //Hops
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Peppers", 
+		"MinutesUntilReady": 4320,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 260, //Peppers
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 260, //Peppers
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 260, //Peppers
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 260, //Peppers
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 4320
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Strawberries", 
+		"MinutesUntilReady": 5760,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 400, //Strawberries
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 400, //Strawberries
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 400, //Strawberries
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 400, //Strawberries
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Tea", 
+		"MinutesUntilReady": 1440,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 815, //Tea
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 815, //Tea
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 815, //Tea
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 815, //Tea
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 1440
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aeroponics Tower - Tomatoes", 
+		"MinutesUntilReady": 5760,
+		"AdditionalOutputs": [ 
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 256, //Tomatoes
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 256, //Tomatoes
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 256, //Tomatoes
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.55, 
+				"OutputIdentifier": 256, //Tomatoes
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 8,
+				"MinutesUntilReady": 5760
+			}
+		],
+		"Sounds": [ "harvest" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{
 		"ProducerName": "Fish Hatchery",
-		"InputIdentifier": "812", //Roe
+		"InputIdentifier": 812, //Roe
 		"InputStack": 5,
 		"FuelIdentifier": null,
 		"FuelStack": 1,
@@ -536,51 +1427,46 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{ 
-		"ProducerName": "Aquaponics Aquarium", 
-        "OutputIdentifier": 368, //Basic Fertilizer for use in Hydroponics
-		"AdditionalOutputs": [ 
-			{
-				//5x Roe Output
-				"OutputProbability": 0.5, 
-				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 15, 
-				"OutputMaxStack": 25,
-				 
-			},
-			{
-				"OutputProbability": 0.10, 
-				"OutputIdentifier": 812, //Roe output
-				"OutputStack": 3, 
-				"OutputMaxStack": 5,
-				 
-			},
-			{
-				"OutputProbability": 0.20, 
-				"OutputIdentifier": "Liquid Fertilizer", //Quality Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
-				 
-			},
-			{
-				"OutputProbability": 0.65, 
-				"OutputIdentifier": 368, //Basic Fertilizer
-				"OutputStack": 16, 
-				"OutputMaxStack": 16,
-				 
-			}
-		],
+		"ProducerName": "Aquaponics Aquarium",
+		"MinutesUntilReady": 4400,
+		"OutputIdentifier": "Polluted Aquarium Water", 
+		"OutputStack": 1,				
 		"PlacingAnimation": "Bubbles",
 		"DelayedSounds": [ { "bubbles": 50 } ],
 		"PlacingAnimationColorName": "White"
 	},
-	
-	
 	{ 
-		"ProducerName": "Hydroponic Bed", 
+		"ProducerName": "Aquarium Filter", 
+		"InputIdentifier": "Polluted Aquarium Water",
+		"InputStack": 1,
+		"MinutesUntilReady": 1000,
+		"OutputIdentifier": "Liquid Fertilizer",
+		"OutputStack": 6,	
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Aquarium Breeding Tank", 
+		"InputIdentifier": -4, //Fish
+		"InputStack": 2,
+		"MinutesUntilReady": 6400,
+		"OutputIdentifier": 812, //Roe output
+		"OutputStack": 8, 
+		"OutputName": "{inputName} Roe",
+		"PreserveType": "Roe", 
+		"KeepInputParentIndex": true,
+		"PlacingAnimation": "Bubbles",
+		"DelayedSounds": [ { "bubbles": 50 } ],
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Hydroponics System", 
 		"InputIdentifier": "Seedling Bag", //Parsnip Seeds
-		"InputStack": 4,
+		"InputStack": 1,
 		"MinutesUntilReady": 6400,
 		"AdditionalOutputs": [ 
+		//---------------Parsnip---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -590,7 +1476,7 @@
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { 369: 1 },
-				"RequiredInputParentIdentifier": ["472"]				 
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Gold Output
@@ -646,175 +1532,8 @@
 				"MinutesUntilReady": 6400,
 				"RequiredFuel": { "Liquid Fertilizer": 1 },
 				"RequiredInputParentIdentifier": ["472"]
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 251, //Tea Sapling
-		"InputStack": 4,
-		"MinutesUntilReady": 44800,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 4, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 2, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 1, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 4, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 42,
-				"MinutesUntilReady": 44800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 2, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 42,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 1, 
-				"OutputStack": 28, 
-				"OutputMaxStack": 42,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 473, //Bean Starter
-		"InputStack": 4,
-		"MinutesUntilReady": 40000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 4, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 2, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 1, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 4, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 2, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 1, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 35,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 474, //Cauliflower Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+			},	
+			//---------------Cauliflower---------------			
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -823,8 +1542,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Gold Output
@@ -834,8 +1553,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Silver Output
@@ -845,8 +1564,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Iridium Output
@@ -856,8 +1575,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Gold Output
@@ -867,8 +1586,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Silver Output
@@ -878,21 +1597,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 475, //Potato Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["474"]
+			},
+			//---------------Potatoes---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -901,8 +1609,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Gold Output
@@ -912,8 +1620,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Silver Output
@@ -923,8 +1631,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Iridium Output
@@ -934,8 +1642,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Gold Output
@@ -945,8 +1653,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Silver Output
@@ -956,21 +1664,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 476, //Garlic Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["475"]
+			},
+			//---------------Garlic---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -979,8 +1676,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Gold Output
@@ -990,8 +1687,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Silver Output
@@ -1001,8 +1698,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Iridium Output
@@ -1012,8 +1709,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Gold Output
@@ -1023,8 +1720,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Silver Output
@@ -1034,21 +1731,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 477, //Kale Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["476"]
+			},
+			//---------------Kale---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1057,8 +1743,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Gold Output
@@ -1068,8 +1754,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Silver Output
@@ -1079,8 +1765,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Iridium Output
@@ -1090,8 +1776,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Gold Output
@@ -1101,8 +1787,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Silver Output
@@ -1112,99 +1798,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 480, //Tomato Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 4, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 25,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 2, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 25,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 1, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 25,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 4, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 2, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 1, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 30,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 483, //Wheat Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+			//---------------Wheat---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1213,8 +1810,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Gold Output
@@ -1224,8 +1821,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Silver Output
@@ -1235,8 +1832,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Iridium Output
@@ -1246,8 +1843,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Gold Output
@@ -1257,8 +1854,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Silver Output
@@ -1268,21 +1865,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 484, //Radish Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["483"]
+			},
+			//---------------Radish---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1291,8 +1877,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 , 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Gold Output
@@ -1302,8 +1888,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Silver Output
@@ -1313,8 +1899,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Iridium Output
@@ -1324,8 +1910,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Gold Output
@@ -1335,8 +1921,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Silver Output
@@ -1346,21 +1932,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 485, //Red Cabbage Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 14400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["484"]
+			},
+			//---------------Red Cabbage---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1369,8 +1944,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Gold Output
@@ -1380,8 +1955,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Silver Output
@@ -1391,8 +1966,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 14400,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Iridium Output
@@ -1402,8 +1977,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Gold Output
@@ -1413,8 +1988,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Silver Output
@@ -1424,255 +1999,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 487, //Corn Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 88000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 4, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 55,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 2, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 55,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 1, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 55,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 4, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 66,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 2, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 66,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 1, 
-				"OutputStack": 44, 
-				"OutputMaxStack": 66,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 273, //Rice Shoot
-		"InputStack": 4,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 2, 
-				"OutputStack": 4,
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 1, 
-				"OutputStack": 4,
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 4, 
-				"OutputStack": 4,
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 9600,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 2, 
-				"OutputStack": 4,
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				  
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 1, 
-				"OutputStack": 4,
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 488, //Eggplant Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 8000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 5,
-				"MinutesUntilReady": 8000,
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 4, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 8000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 2, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 1, 
-				"OutputStack": 4, 
-				"OutputMaxStack": 6,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 489, //Artichoke Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 12800,
-		"AdditionalOutputs": [ 
+			//---------------Artichoke---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1681,8 +2011,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Gold Output
@@ -1692,8 +2022,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Silver Output
@@ -1703,8 +2033,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Iridium Output
@@ -1714,8 +2044,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Gold Output
@@ -1725,8 +2055,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Silver Output
@@ -1736,21 +2066,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 490, //Pumpkin Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["489"]
+			},
+			//---------------Pumpkin---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1759,8 +2078,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Gold Output
@@ -1770,8 +2089,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Silver Output
@@ -1781,8 +2100,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Iridium Output
@@ -1792,8 +2111,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Gold Output
@@ -1803,8 +2122,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Silver Output
@@ -1814,21 +2133,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 491, //Bok Choy Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["490"]
+			},
+			//---------------Bok Choy---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1837,8 +2145,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				  
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Gold Output
@@ -1848,8 +2156,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Silver Output
@@ -1859,8 +2167,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Iridium Output
@@ -1870,8 +2178,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Gold Output
@@ -1881,8 +2189,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Silver Output
@@ -1892,21 +2200,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 492, //Yam Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 16000,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["491"]
+			},
+			//---------------Yam---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1915,8 +2212,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Gold Output
@@ -1926,8 +2223,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Silver Output
@@ -1937,8 +2234,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Iridium Output
@@ -1948,8 +2245,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Gold Output
@@ -1959,8 +2256,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Silver Output
@@ -1970,21 +2267,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 494, //Beet Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["492"]
+			},
+			//---------------Beet---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -1993,8 +2279,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Gold Output
@@ -2004,7 +2290,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Silver Output
@@ -2014,8 +2301,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Iridium Output
@@ -2025,8 +2312,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Gold Output
@@ -2036,8 +2323,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Silver Output
@@ -2047,21 +2334,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 299, //Amaranth Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 11200,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["494"]
+			},
+			//---------------Amarath---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2070,8 +2346,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Gold Output
@@ -2081,8 +2357,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Silver Output
@@ -2092,8 +2368,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 11200,
-				"RequiredFuel": { 369: 1 }
-				 
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Iridium Output
@@ -2103,8 +2379,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Gold Output
@@ -2114,8 +2390,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Silver Output
@@ -2125,179 +2401,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 302, //Hops Starter
-		"InputStack": 4,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 4, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 85,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 2, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 85,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 1, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 85,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 4, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 102,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 2, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 102,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 1, 
-				"OutputStack": 68, 
-				"OutputMaxStack": 102,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			}
-		],
-		"LookForInputWhenReady": {
-			"Range": 4,
-			"InputIdentifier": ["Basic Fertilizer"],
-			"Crop": false,
-			"ExcludeForageCrops": true,
-			"GardenPot": false,
-			"FruitTree": false,
-			"BigCraftable": true
-		},
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 433, //Coffee Bean
-		"InputStack": 4,
-		"MinutesUntilReady": 86400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 4, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 552,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 2, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 552,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 1, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 552,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 4, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 644,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 2, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 644,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 1, 
-				"OutputStack": 368, 
-				"OutputMaxStack": 644,
-				"MinutesUntilReady": 86400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 478, //Rhubarb Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["299"]
+			},	
+			//---------------Rhubarb---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2306,7 +2413,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Gold Output
@@ -2316,7 +2424,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Silver Output
@@ -2326,7 +2435,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Iridium Output
@@ -2336,7 +2446,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Gold Output
@@ -2346,7 +2457,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Silver Output
@@ -2356,236 +2468,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 745, //Strawberry Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 4, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 2, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 1, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 4, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 2, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 1, 
-				"OutputStack": 20, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 481, //Blueberry Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 64,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 64,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 64,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 38400,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 482, //Hot Pepper Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 41600,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 4, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 1 } 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 2, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 1, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 4, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 2, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 1, 
-				"OutputStack": 32, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 41600,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 479, //Melon Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 19200,
-		"AdditionalOutputs": [ 
+			//---------------Melon---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2594,7 +2480,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Gold Output
@@ -2604,7 +2491,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Silver Output
@@ -2614,7 +2502,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Iridium Output
@@ -2624,7 +2513,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Gold Output
@@ -2634,7 +2524,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Silver Output
@@ -2644,20 +2535,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 19200,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 486, //Starfruit Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+			//---------------Starfruit---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2666,7 +2547,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Gold Output
@@ -2676,7 +2558,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Silver Output
@@ -2686,7 +2569,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Iridium Output
@@ -2696,7 +2580,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Gold Output
@@ -2706,7 +2591,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Silver Output
@@ -2716,164 +2602,10 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 493, //Cranberry Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 4, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 2, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 1, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 4, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 100,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 2, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 100,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 1, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 100,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 301, //Grape Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 40000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 4, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 2, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 1, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 1 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 4, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 2, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 1, 
-				"OutputStack": 24, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 499, //Ancient Fruit Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 123200,
-		"AdditionalOutputs": [ 
+			//---------------Ancient Fruit---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2882,7 +2614,8 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["499"]
 			},
 			{
 				//Gold Output
@@ -2892,7 +2625,8 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 1 } 
+				"RequiredFuel": { 369: 1 } ,
+				"RequiredInputParentIdentifier": ["499"]
 			},
 			{
 				//Silver Output
@@ -2902,7 +2636,8 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 40,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["499"]
 			},
 			{
 				//Iridium Output
@@ -2912,7 +2647,8 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["499"]
 			},
 			{
 				//Gold Output
@@ -2922,7 +2658,8 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["499"]
 			},
 			{
 				//Silver Output
@@ -2932,20 +2669,10 @@
 				"OutputStack": 32, 
 				"OutputMaxStack": 48,
 				"MinutesUntilReady": 123200,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["499"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 802, //Cactus Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
+			//---------------Cactus---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -2954,7 +2681,8 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
 			{
 				//Gold Output
@@ -2964,7 +2692,8 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
 			{
 				//Silver Output
@@ -2974,7 +2703,8 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 30,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
 			{
 				//Iridium Output
@@ -2984,7 +2714,8 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
 			{
 				//Gold Output
@@ -2994,7 +2725,8 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
 			{
 				//Silver Output
@@ -3004,20 +2736,10 @@
 				"OutputStack": 24, 
 				"OutputMaxStack": 36,
 				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["802"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Hydroponic Bed", 
-		"InputIdentifier": 347, //Rare Seeds
-		"InputStack": 4,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
+			//---------------Sweet Gem Berry---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3026,7 +2748,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Gold Output
@@ -3036,7 +2759,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Silver Output
@@ -3046,7 +2770,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 5,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 1 }
+				"RequiredFuel": { 369: 1 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Iridium Output
@@ -3056,7 +2781,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Gold Output
@@ -3066,7 +2792,8 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Silver Output
@@ -3076,19 +2803,99 @@
 				"OutputStack": 4, 
 				"OutputMaxStack": 6,
 				"MinutesUntilReady": 38400,
+				"RequiredFuel": { "Liquid Fertilizer": 1 },
+				"RequiredInputParentIdentifier": ["347"]
+			}
+		],
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},	
+	{ 
+		"ProducerName": "Hydroponics System", 
+		"InputIdentifier": 273, //Rice Shoot
+		"InputStack": 4,
+		"MinutesUntilReady": 9600,
+		"AdditionalOutputs": [ 
+			//---------------Unmilled Rice---------------
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 4, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 }
+				 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 2, 
+				"OutputStack": 4,
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 }
+				 
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 1, 
+				"OutputStack": 4,
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 }
+				 
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 4, 
+				"OutputStack": 4,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 9600,
 				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				 
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 2, 
+				"OutputStack": 4,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				  
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 1, 
+				"OutputStack": 4,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { "Liquid Fertilizer": 1 }
+				 
 			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
 	},
+	//Stacked Hydros	
 	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 472, //Parsnip Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 6400,
+		"ProducerName": "Large Hydroponics System", 
+		"InputIdentifier": "Seedling Bag", //Parsnip Seeds
+		"InputStack": 2,
 		"AdditionalOutputs": [ 
+		//---------------Parsnip---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3097,8 +2904,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Gold Output
@@ -3108,8 +2915,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Silver Output
@@ -3119,19 +2926,19 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Iridium Output
 				"OutputProbability": 0.4, 
 				"OutputIdentifier": 24, //Parsnip Crop
 				"OutputQuality": 4, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 12,
+				"OutputStack": 4, 
+				"OutputMaxStack": 6,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Gold Output
@@ -3141,8 +2948,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
 			{
 				//Silver Output
@@ -3152,177 +2959,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 251, //Tea Sapling
-		"InputStack": 8,
-		"MinutesUntilReady": 44800,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 4, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["472"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 2, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 1, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 4, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 84,
-				"MinutesUntilReady": 44800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 2, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 84,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 815, //Tea Leaves
-				"OutputQuality": 1, 
-				"OutputStack": 56, 
-				"OutputMaxStack": 84,
-				"MinutesUntilReady": 44800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 473, //Bean Starter
-		"InputStack": 8,
-		"MinutesUntilReady": 40000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 188, //Green Beans
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 474, //Cauliflower Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+			//---------------Cauliflower---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3331,8 +2971,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Gold Output
@@ -3342,8 +2982,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Silver Output
@@ -3353,8 +2993,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Iridium Output
@@ -3364,8 +3004,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2},
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Gold Output
@@ -3375,8 +3015,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["474"]
 			},
 			{
 				//Silver Output
@@ -3386,21 +3026,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 475, //Potato Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["474"]
+			},
+			//---------------Potatoes---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3409,8 +3038,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Gold Output
@@ -3420,8 +3049,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Silver Output
@@ -3431,8 +3060,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Iridium Output
@@ -3442,8 +3071,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Gold Output
@@ -3453,8 +3082,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["475"]
 			},
 			{
 				//Silver Output
@@ -3464,21 +3093,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 476, //Garlic Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["475"]
+			},
+			//---------------Garlic---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3487,8 +3105,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Gold Output
@@ -3498,8 +3116,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Silver Output
@@ -3509,8 +3127,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Iridium Output
@@ -3520,8 +3138,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Gold Output
@@ -3531,8 +3149,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["476"]
 			},
 			{
 				//Silver Output
@@ -3542,21 +3160,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 477, //Kale Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["476"]
+			},
+			//---------------Kale---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3565,8 +3172,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Gold Output
@@ -3576,8 +3183,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Silver Output
@@ -3587,8 +3194,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Iridium Output
@@ -3598,8 +3205,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Gold Output
@@ -3609,8 +3216,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
 			{
 				//Silver Output
@@ -3620,99 +3227,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 480, //Tomato Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 4, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 50,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["477"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 2, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 50,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 1, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 50,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 4, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 2, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 256, //Tomatoes
-				"OutputQuality": 1, 
-				"OutputStack": 40, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 483, //Wheat Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+			//---------------Wheat---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3721,8 +3239,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Gold Output
@@ -3732,8 +3250,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Silver Output
@@ -3743,8 +3261,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Iridium Output
@@ -3754,8 +3272,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Gold Output
@@ -3765,8 +3283,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["483"]
 			},
 			{
 				//Silver Output
@@ -3776,21 +3294,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 484, //Radish Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["483"]
+			},
+			//---------------Radish---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3799,8 +3306,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 , 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Gold Output
@@ -3810,8 +3317,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Silver Output
@@ -3821,8 +3328,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Iridium Output
@@ -3832,8 +3339,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Gold Output
@@ -3843,8 +3350,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["484"]
 			},
 			{
 				//Silver Output
@@ -3854,21 +3361,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 485, //Red Cabbage Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 14400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["484"]
+			},
+			//---------------Red Cabbage---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -3877,8 +3373,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Gold Output
@@ -3888,8 +3384,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Silver Output
@@ -3899,8 +3395,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 14400,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Iridium Output
@@ -3910,8 +3406,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 14400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Gold Output
@@ -3921,8 +3417,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
 			{
 				//Silver Output
@@ -3932,255 +3428,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 14400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 487, //Corn Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 88000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 4, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 110,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["485"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 2, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 110,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 1, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 110,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 4, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 132,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 2, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 132,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 270, //Corn
-				"OutputQuality": 1, 
-				"OutputStack": 88, 
-				"OutputMaxStack": 132,
-				"MinutesUntilReady": 88000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 273, //Rice Shoot
-		"InputStack": 8,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 4, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 2, 
-				"OutputStack": 8,
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 1, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 4, 
-				"OutputStack": 8,
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 9600,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 2, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				  
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 271, //Unmilled Rice
-				"OutputQuality": 1, 
-				"OutputStack": 8,
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 488, //Eggplant Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 8000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 4, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 2, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 1, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 10,
-				"MinutesUntilReady": 8000,
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 4, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 8000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 2, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 272, //Eggplant
-				"OutputQuality": 1, 
-				"OutputStack": 8, 
-				"OutputMaxStack": 12,
-				"MinutesUntilReady": 8000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 489, //Artichoke Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 12800,
-		"AdditionalOutputs": [ 
+			//---------------Artichoke---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4189,8 +3440,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Gold Output
@@ -4200,8 +3451,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Silver Output
@@ -4211,8 +3462,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Iridium Output
@@ -4222,8 +3473,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 12800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Gold Output
@@ -4233,8 +3484,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["489"]
 			},
 			{
 				//Silver Output
@@ -4244,21 +3495,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 12800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 490, //Pumpkin Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["489"]
+			},
+			//---------------Pumpkin---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4267,8 +3507,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Gold Output
@@ -4278,8 +3518,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Silver Output
@@ -4289,8 +3529,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Iridium Output
@@ -4300,8 +3540,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Gold Output
@@ -4311,8 +3551,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["490"]
 			},
 			{
 				//Silver Output
@@ -4322,21 +3562,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 491, //Bok Choy Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 6400,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["490"]
+			},
+			//---------------Bok Choy---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4345,8 +3574,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				  
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Gold Output
@@ -4356,8 +3585,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Silver Output
@@ -4367,8 +3596,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Iridium Output
@@ -4378,8 +3607,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Gold Output
@@ -4389,8 +3618,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["491"]
 			},
 			{
 				//Silver Output
@@ -4400,21 +3629,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 6400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 492, //Yam Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 16000,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["491"]
+			},
+			//---------------Yam---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4423,8 +3641,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Gold Output
@@ -4434,8 +3652,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Silver Output
@@ -4445,8 +3663,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Iridium Output
@@ -4456,8 +3674,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 16000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Gold Output
@@ -4467,8 +3685,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["492"]
 			},
 			{
 				//Silver Output
@@ -4478,21 +3696,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 16000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 494, //Beet Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 9600,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["492"]
+			},
+			//---------------Beet---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4501,8 +3708,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Gold Output
@@ -4512,7 +3719,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Silver Output
@@ -4522,8 +3730,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Iridium Output
@@ -4533,8 +3741,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Gold Output
@@ -4544,8 +3752,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["494"]
 			},
 			{
 				//Silver Output
@@ -4555,21 +3763,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 9600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 299, //Amaranth Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 11200,
-		"AdditionalOutputs": [ 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["494"]
+			},
+			//---------------Amaranth---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4578,8 +3775,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Gold Output
@@ -4589,8 +3786,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Silver Output
@@ -4600,8 +3797,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 11200,
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Iridium Output
@@ -4611,8 +3808,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Gold Output
@@ -4622,8 +3819,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
 			{
 				//Silver Output
@@ -4633,179 +3830,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 11200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			}
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 302, //Hops Starter
-		"InputStack": 8,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 4, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 170,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-				 
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["299"]
 			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 2, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 170,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 1, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 170,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-				 
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 4, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 204,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 2, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 204,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-				 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 304, //Hops
-				"OutputQuality": 1, 
-				"OutputStack": 136, 
-				"OutputMaxStack": 204,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			}
-		],
-		"LookForInputWhenReady": {
-			"Range": 4,
-			"InputIdentifier": ["Basic Fertilizer"],
-			"Crop": false,
-			"ExcludeForageCrops": true,
-			"GardenPot": false,
-			"FruitTree": false,
-			"BigCraftable": true
-		},
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 433, //Coffee Bean
-		"InputStack": 8,
-		"MinutesUntilReady": 86400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 4, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1104,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 2, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1104,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 1, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1104,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 4, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1288,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 2, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1288,
-				"MinutesUntilReady": 86400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 433, //Coffee Bean
-				"OutputQuality": 1, 
-				"OutputStack": 736, 
-				"OutputMaxStack": 1288,
-				"MinutesUntilReady": 86400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 478, //Rhubarb Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+			//---------------Rhubarb---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -4814,7 +3842,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Gold Output
@@ -4824,7 +3853,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Silver Output
@@ -4834,7 +3864,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Iridium Output
@@ -4844,7 +3875,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Gold Output
@@ -4854,7 +3886,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
 			{
 				//Silver Output
@@ -4864,236 +3897,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["478"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 745, //Strawberry Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 4, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 120,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 2, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 120,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 1, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 120,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 4, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 2, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 400, //Strawberry
-				"OutputQuality": 1, 
-				"OutputStack": 40,  
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 38400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 481, //Blueberry Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 4, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 2, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 1, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 128,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 4, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 320,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 2, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 320,
-				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 258, //Blueberry
-				"OutputQuality": 1, 
-				"OutputStack": 96, 
-				"OutputMaxStack": 320,
-				"MinutesUntilReady": 38400,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 482, //Hot Pepper Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 41600,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 4, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 2 } 
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 2, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 1, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 4, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 256,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 2, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 256,
-				"MinutesUntilReady": 41600, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 260, //Hot Pepper
-				"OutputQuality": 1, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 256,
-				"MinutesUntilReady": 41600,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 479, //Melon Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 19200,
-		"AdditionalOutputs": [ 
+			//---------------Melon---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -5102,7 +3909,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Gold Output
@@ -5112,7 +3920,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Silver Output
@@ -5122,7 +3931,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Iridium Output
@@ -5132,7 +3942,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Gold Output
@@ -5142,7 +3953,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 19200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
 			{
 				//Silver Output
@@ -5152,20 +3964,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 19200,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["479"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 486, //Starfruit Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 20800,
-		"AdditionalOutputs": [ 
+			//---------------Starfruit---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -5174,7 +3976,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Gold Output
@@ -5184,7 +3987,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Silver Output
@@ -5194,7 +3998,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Iridium Output
@@ -5204,7 +4009,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Gold Output
@@ -5214,7 +4020,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
 			{
 				//Silver Output
@@ -5224,308 +4031,10 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 20800,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["486"]
 			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 493, //Cranberry Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 4, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 2, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 1, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 160,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 4, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 200,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 2, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 200,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 282, //Cranberries
-				"OutputQuality": 1, 
-				"OutputStack": 80, 
-				"OutputMaxStack": 200,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 301, //Grape Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 40000,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 144,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 144,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 144,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 40000, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 398, //Grapes
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 192,
-				"MinutesUntilReady": 40000,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 499, //Ancient Fruit Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 123200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 4, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 2, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 2 } 
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 1, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 80,
-				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 4, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 2, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 123200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 454, //Ancient Fruit
-				"OutputQuality": 1, 
-				"OutputStack": 64, 
-				"OutputMaxStack": 96,
-				"MinutesUntilReady": 123200,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 802, //Cactus Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 43200,
-		"AdditionalOutputs": [ 
-			{
-				//Iridium Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.30, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.45, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 60,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { 369: 2 }
-			},
-			{
-				//Iridium Output
-				"OutputProbability": 0.4, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 4, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Gold Output
-				"OutputProbability": 0.35, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 2, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 43200, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-			{
-				//Silver Output
-				"OutputProbability": 0.25, 
-				"OutputIdentifier": 90, //Cactus Fruit
-				"OutputQuality": 1, 
-				"OutputStack": 48, 
-				"OutputMaxStack": 72,
-				"MinutesUntilReady": 43200,
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
-			},
-		],
-		"Sounds": [ "Ship" ], 
-		"PlacingAnimation": null, 
-		"PlacingAnimationColorName": "White"
-	},
-	
-	{ 
-		"ProducerName": "Stacked Hydroponic Beds", 
-		"InputIdentifier": 347, //Rare Seeds
-		"InputStack": 8,
-		"MinutesUntilReady": 38400,
-		"AdditionalOutputs": [ 
+			//---------------Sweet Gem Berry---------------
 			{
 				//Iridium Output
 				"OutputProbability": 0.25, 
@@ -5534,7 +4043,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Gold Output
@@ -5544,7 +4054,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Silver Output
@@ -5554,7 +4065,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 10,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { 369: 2 }
+				"RequiredFuel": { 369: 2 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Iridium Output
@@ -5564,7 +4076,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Gold Output
@@ -5574,7 +4087,8 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 38400, 
-				"RequiredFuel": { "Liquid Fertilizer": 2 }
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["347"]
 			},
 			{
 				//Silver Output
@@ -5584,13 +4098,845 @@
 				"OutputStack": 8, 
 				"OutputMaxStack": 12,
 				"MinutesUntilReady": 38400,
+				"RequiredFuel": { "Liquid Fertilizer": 2 },
+				"RequiredInputParentIdentifier": ["347"]
+			}
+		],
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Large Hydroponics System", 
+		"InputIdentifier": 273, //Rice Shoot
+		"InputStack": 8,
+		"MinutesUntilReady": 9600,
+		"AdditionalOutputs": [ 
+			//---------------Unmilled Rice---------------
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 4, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 10,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 2 }
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 2, 
+				"OutputStack": 8,
+				"OutputMaxStack": 10,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 2 }
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 1, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 10,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 2 }
+			},
+			{
+				//Iridium Output
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 4, 
+				"OutputStack": 8,
+				"OutputMaxStack": 12,
+				"MinutesUntilReady": 9600,
+				"RequiredFuel": { "Liquid Fertilizer": 2 }
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 2, 
+				"OutputStack": 8, 
+				"OutputMaxStack": 12,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { "Liquid Fertilizer": 2 }
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 1, 
+				"OutputStack": 8,
+				"OutputMaxStack": 12,
+				"MinutesUntilReady": 9600, 
 				"RequiredFuel": { "Liquid Fertilizer": 2 }
 			}
 		],
 		"Sounds": [ "Ship" ], 
 		"PlacingAnimation": null, 
 		"PlacingAnimationColorName": "White"
-	}
+	},
+	{ 
+		"ProducerName": "Raised Bed", 
+		"InputIdentifier": "Seedling Bag", //Parsnip Seeds
+		"InputStack": 1,
+		"MinutesUntilReady": 6400,
+		"AdditionalOutputs": [ 
+			//---------------Parsnips---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["472"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["472"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 24, //Parsnip Crop
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["472"]
+			},	
+			//---------------Cauliflower---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 190, //Cauliflower
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["474"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 190, //Cauliflower
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["474"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 190, //Cauliflower
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["474"]
+			},
+			//---------------Potatoes---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 192, //Potatoes
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["475"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 192, //Potatoes
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["475"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 192, //Potatoes
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["475"]
+			},
+			//---------------Garlic---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 248, //Garlic
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["476"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 248, //Garlic
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["476"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 248, //Garlic
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["476"]
+			},
+			//---------------Kale---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 250, //Kale
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["477"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 250, //Kale
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["477"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 250, //Kale
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["477"]
+			},
+			//---------------Wheat---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 262, //Wheat
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["483"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 262, //Wheat
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["483"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 262, //Wheat
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["483"]
+			},
+			//---------------Radish---------------			
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 264, //Radish
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["484"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 264, //Radish
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["484"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 264, //Radish
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["484"]
+			},
+			//---------------Red Cabbage---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 266, //Red Cabbage
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["485"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 266, //Red Cabbage
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 14400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["485"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 266, //Red Cabbage
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 14400,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["485"]
+			},
+			//---------------Artichoke---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 274, //Artichoke
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["489"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 274, //Artichoke
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["489"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 274, //Artichoke
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 12800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["489"]
+			},
+			//---------------Pumpkin---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 276, //Pumpkin
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["490"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 276, //Pumpkin
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["490"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 276, //Pumpkin
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["490"]
+			},
+			//---------------Bok Choy---------------
+			{
+				//Iridium Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 278, //Bok Choy
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["491"]
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 278, //Bok Choy
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["491"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 278, //Bok Choy
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 6400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["491"]
+			},
+			//---------------Yam---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 280, //Yam
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["492"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 280, //Yam
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["492"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 280, //Yam
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 16000, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["492"]
+			},
+			//---------------Beets---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 284, //Beet
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["494"]
+			},
+			{
+				//Gold Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 284, //Beet
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["494"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 284, //Beet
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["494"]
+			},
+			//---------------Amarath---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 300, //Amaranth
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["299"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 300, //Amaranth
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 11200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["299"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 300, //Amaranth
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 11200,
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["299"]
+			},
+			//---------------Rhubarb---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["478"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["478"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 252, //Rhubarb
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring" ],
+				"RequiredInputParentIdentifier": ["478"]
+			},
+			//---------------Melon---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["479"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["479"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 254, //Melon
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 19200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["479"]
+			},
+			//---------------Starfruit---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["486"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["486"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 268, //Starfruit
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 20800, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "summer" ],
+				"RequiredInputParentIdentifier": ["486"]
+			},
+			//---------------Ancient Fruit---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 2, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring", "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["499"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 1, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring", "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["499"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 454, //Ancient Fruit
+				"OutputQuality": 0, 
+				"OutputStack": 32, 
+				"OutputMaxStack": 40,
+				"MinutesUntilReady": 123200, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "spring", "summer", "fall" ],
+				"RequiredInputParentIdentifier": ["499"]
+			},
+			//---------------Gem Berry---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 3, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["347"]
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 1, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["347"]
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 417, //Sweet Gem Berry
+				"OutputQuality": 0, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 38400, 
+				"RequiredFuel": { 369: 1 },
+				"RequiredSeason": [ "fall" ],
+				"RequiredInputParentIdentifier": ["347"]
+			}
+		],
+		"Sounds": [ "hoeHit" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Raised Bed", 
+		"InputIdentifier": 273, //Rice Shoot
+		"InputStack": 4,
+		"MinutesUntilReady": 9600,
+		"AdditionalOutputs": [ 
+			//---------------Unmilled Rice---------------
+			{
+				//Gold Output
+				"OutputProbability": 0.25, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 2, 
+				"OutputStack": 4, 
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredSeason": [ "spring" ],
+				"RequiredFuel": { 369: 1 }
+			},
+			{
+				//Silver Output
+				"OutputProbability": 0.30, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 1, 
+				"OutputStack": 4,
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredSeason": [ "spring" ],
+				"RequiredFuel": { 369: 1 }
+			},
+			{
+				//Normal Output
+				"OutputProbability": 0.45, 
+				"OutputIdentifier": 271, //Unmilled Rice
+				"OutputQuality": 0, 
+				"OutputStack": 4,
+				"OutputMaxStack": 5,
+				"MinutesUntilReady": 9600, 
+				"RequiredSeason": [ "spring" ],
+				"RequiredFuel": { 369: 1 }
+			},
+		],
+		"Sounds": [ "Ship" ], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White"
+	},
 ]
 /* Additional Notes
  * Possible stats: [SeedsSown|ItemsShipped|ItemsCooked|ItemsCrafted|ChickenEggsLayed|DuckEggsLayed|CowMilkProduced|GoatMilkProduced|RabbitWoolProduced|SheepWoolProduced|CheeseMade|GoatCheeseMade|TrufflesFound|StoneGathered|RocksCrushed|DirtHoed|GiftsGiven|TimesUnconscious|AverageBedtime|TimesFished|FishCaught|BouldersCracked|StumpsChopped|StepsTaken|MonstersKilled|DiamondsFound|PrismaticShardsFound|OtherPreciousGemsFound|CaveCarrotsFound|CopperFound|IronFound|CoalFound|CoinsFound|GoldFound|IridiumFound|BarsSmelted|BeveragesMade|PreservesMade|PiecesOfTrashRecycled|MysticStonesCrushed|DaysPlayed|WeedsEliminated|SticksChopped|NotesFound|QuestsCompleted|StarLevelCropsShipped|CropsShipped|ItemsForaged|SlimesKilled|GeodesCracked|GoodFriends|IndividualMoneyEarned]
