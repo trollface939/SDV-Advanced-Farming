@@ -39,7 +39,7 @@
             "pt": "Aquarium Filter", //Portuguese
             "ru": "Aquarium Filter", //Russian
             "tr": "Aquarium Filter", //Turkish
-            "zh": "Aquarium Filter" //Chinese (Simplified)
+            "zh": "鱼池过滤器" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -53,6 +53,6 @@
             "pt": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Portuguese
             "ru": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Russian
             "tr": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Turkish
-            "zh": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium." //Chinese (Simplified)
+            "zh": "鱼池过滤器，用于自动清洁鱼池，定期产生肥料。放置在生态鱼池附近。" //Chinese (Simplified)
         }
     }

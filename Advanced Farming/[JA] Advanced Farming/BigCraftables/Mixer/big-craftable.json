@@ -48,7 +48,7 @@
             "pt": "Mixer", //Portuguese
             "ru": "Mixer", //Russian
             "tr": "Mixer", //Turkish
-            "zh": "Mixer" //Chinese (Simplified)
+            "zh": "混合机" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -62,6 +62,6 @@
             "pt": "A Mixing machine that helps disolve materials in water.", //Portuguese
             "ru": "A Mixing machine that helps disolve materials in water.", //Russian
             "tr": "A Mixing machine that helps disolve materials in water.", //Turkish
-            "zh": "A Mixing machine that helps disolve materials in water." //Chinese (Simplified)
+            "zh": "将材料溶解在水中的混合机。" //Chinese (Simplified)
         }
     }

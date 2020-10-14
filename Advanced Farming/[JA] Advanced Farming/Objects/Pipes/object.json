@@ -22,5 +22,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 168", "f Demetrius 1500"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "管道" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "各种耐腐蚀的PVC管、配件和铜套。可以弯成任何所需的形状然后加热热焊接在一起。" //Chinese (Simplified)
     }
 }

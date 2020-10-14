@@ -18,5 +18,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 224", "f Demetrius 2000"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "气雾栽培塔框架" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "圆柱形的聚合物框架，上面钻有孔，用于建造气雾栽培塔。" //Chinese (Simplified)
     }
 }

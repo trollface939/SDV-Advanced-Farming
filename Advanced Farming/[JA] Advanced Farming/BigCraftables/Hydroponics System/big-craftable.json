@@ -47,7 +47,7 @@
             "pt": "Hydroponics System", //Portuguese
             "ru": "Hydroponics System", //Russian
             "tr": "Hydroponics System", //Turkish
-            "zh": "Hydroponics System", //Chinese (Simplified)
+            "zh": "水培系统", //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "A small hydroponics system with two Trays for growing plants indoors. It's independent water tank and closed loop system allows for full control of nutrients.", //Portuguese
             "ru": "A small hydroponics system with two Trays for growing plants indoors. It's independent water tank and closed loop system allows for full control of nutrients.", //Russian
             "tr": "A small hydroponics system with two Trays for growing plants indoors. It's independent water tank and closed loop system allows for full control of nutrients.", //Turkish
-            "zh": "A small hydroponics system with two Trays for growing plants indoors. It's independent water tank and closed loop system allows for full control of nutrients.", //Chinese (Simplified)
+            "zh": "带有两个托盘的小型水培系统，用于在室内种植植物。它具有独立的水箱和闭环系统，可以完全控制营养物质。", //Chinese (Simplified)
         }
     }

@@ -5,5 +5,13 @@
     "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
     "Price": 0, //How much your item sells for.
     "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
-    "Recipe": null
+    "Recipe": null,
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "甘油" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "从椰子中提取的一种简单的多元醇化合物。它是一种无色、无味，粘稠的液体，味甜无毒。" //Chinese (Simplified)
+    }
 }

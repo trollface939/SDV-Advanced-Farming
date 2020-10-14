@@ -47,7 +47,7 @@
             "pt": "Aeroponics Tower - Tea", //Portuguese
             "ru": "Aeroponics Tower - Tea", //Russian
             "tr": "Aeroponics Tower - Tea", //Turkish
-            "zh": "Aeroponics Tower - Tea" //Chinese (Simplified)
+            "zh": "气雾栽培塔-茶叶" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Tea.", //Portuguese
             "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Tea.", //Russian
             "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Tea.", //Turkish
-            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Tea." //Chinese (Simplified)
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植茶叶。" //Chinese (Simplified)
         }
     }

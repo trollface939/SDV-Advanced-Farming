@@ -47,7 +47,7 @@
             "pt": "Aeroponics Tower - Ancient Fruits", //Portuguese
             "ru": "Aeroponics Tower - Ancient Fruits", //Russian
             "tr": "Aeroponics Tower - Ancient Fruits", //Turkish
-            "zh": "Aeroponics Tower - Ancient Fruits" //Chinese (Simplified)
+            "zh": "气雾栽培塔-远古水果" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Portuguese
             "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Russian
             "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Turkish
-            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits." //Chinese (Simplified)
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植古代水果。" //Chinese (Simplified)
         }
     }

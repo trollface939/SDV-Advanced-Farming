@@ -6,4 +6,12 @@
     "Price": 0, //How much your item sells for.
     "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
     "Recipe": null, //Set to null.
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "液体肥料" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "溶解在水中且酸碱均衡的特制肥料，用于水培和雾气栽培系统。" //Chinese (Simplified)
+    }
 }

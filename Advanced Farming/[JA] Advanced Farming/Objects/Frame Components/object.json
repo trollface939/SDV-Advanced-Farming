@@ -26,5 +26,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 56", "f Demetrius 500"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "框架组件" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "用于建筑框架和支撑结构的木板和螺钉。" //Chinese (Simplified)
     }
 }

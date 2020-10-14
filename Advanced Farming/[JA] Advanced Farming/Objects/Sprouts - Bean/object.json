@@ -6,4 +6,12 @@
     "Price": 0, //How much your item sells for.
     "IsColored": false, //Set to false.
     "Recipe": null, //Begins the recipe block.
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "青豆幼苗" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "装满了人工增强的幼苗的袋子。" //Chinese (Simplified)
+    }
 }

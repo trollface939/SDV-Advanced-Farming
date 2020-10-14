@@ -47,7 +47,7 @@
             "pt": "Rock Smasher", //Portuguese
             "ru": "Rock Smasher", //Russian
             "tr": "Rock Smasher", //Turkish
-            "zh": "Rock Smasher" //Chinese (Simplified)
+            "zh": "碎石机" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "A machine that smashes items for crafting purposes.", //Portuguese
             "ru": "A machine that smashes items for crafting purposes.", //Russian
             "tr": "A machine that smashes items for crafting purposes.", //Turkish
-            "zh": "A machine that smashes items for crafting purposes." //Chinese (Simplified)
+            "zh": "用来粉碎材料以制造物品的机器。" //Chinese (Simplified)
         }
 }

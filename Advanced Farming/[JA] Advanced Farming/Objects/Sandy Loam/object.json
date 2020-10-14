@@ -29,4 +29,12 @@
     "PurchaseRequirements": null, //See Event Preconditions (https://stardewvalleywiki.com/Modding:Event_data#Event_preconditions). 
                                        //If you do not want to have any PurchaseRequirements set this to null
     },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "沙壤土" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "被认为是理想的园艺土壤，由三种基本物质混合成：粘土、沙子和碎石。" //Chinese (Simplified)
+    }
 }

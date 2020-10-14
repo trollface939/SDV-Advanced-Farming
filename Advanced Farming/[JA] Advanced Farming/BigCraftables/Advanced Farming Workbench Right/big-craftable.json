@@ -49,7 +49,7 @@
             "pt": "Advanced Farming Workbench Right", //Portuguese
             "ru": "Advanced Farming Workbench Right", //Russian
             "tr": "Advanced Farming Workbench Right", //Turkish
-            "zh": "Advanced Farming Workbench Right" //Chinese (Simplified)
+            "zh": "高级农业工作台（右）" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -63,6 +63,6 @@
             "pt": "A larger workbench for crafting complex farming tools. Placed alongside Advanced Workbench Left", //Portuguese
             "ru": "A larger workbench for crafting complex farming tools. Placed alongside Advanced Workbench Left", //Russian
             "tr": "A larger workbench for crafting complex farming tools. Placed alongside Advanced Workbench Left", //Turkish
-            "zh": "A larger workbench for crafting complex farming tools. Placed alongside Advanced Workbench Left" //Chinese (Simplified)
+            "zh": "更大的工作台，用于制作复杂的农具。与高级农业工作台（左）并排放置。" //Chinese (Simplified)
         }
     }

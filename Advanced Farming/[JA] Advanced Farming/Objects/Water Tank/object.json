@@ -22,5 +22,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 168", "f Demetrius 1500"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "水罐" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "圆形金属罐，能够盛装水和其他液体。拥有进出水口可使水连续流动。" //Chinese (Simplified)
     }
 }

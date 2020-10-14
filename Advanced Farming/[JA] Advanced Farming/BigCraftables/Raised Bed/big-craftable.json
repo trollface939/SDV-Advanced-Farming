@@ -42,7 +42,7 @@
             "pt": "Raised Bed", //Portuguese
             "ru": "Raised Bed", //Russian
             "tr": "Raised Bed", //Turkish
-            "zh": "Raised Bed", //Chinese (Simplified)
+            "zh": "高设苗床", //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -56,6 +56,6 @@
             "pt": "A raised bed that has artificial soil to allow for full control of nutrients.", //Portuguese
             "ru": "A raised bed that has artificial soil to allow for full control of nutrients.", //Russian
             "tr": "A raised bed that has artificial soil to allow for full control of nutrients.", //Turkish
-            "zh": "A raised bed that has artificial soil to allow for full control of nutrients.", //Chinese (Simplified)
+            "zh": "带有人工土壤的高设苗床，可以完全控制营养物质。", //Chinese (Simplified)
         }
     }

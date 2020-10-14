@@ -47,7 +47,7 @@
             "pt": "Aeroponics Tower - Eggplants", //Portuguese
             "ru": "Aeroponics Tower - Eggplants", //Russian
             "tr": "Aeroponics Tower - Eggplants", //Turkish
-            "zh": "Aeroponics Tower - Eggplants" //Chinese (Simplified)
+            "zh": "气雾栽培塔-茄子" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Portuguese
             "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Russian
             "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Turkish
-            "zh": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss." //Chinese (Simplified)
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植茄子。" //Chinese (Simplified)
         }
     }

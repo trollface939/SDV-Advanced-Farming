@@ -26,5 +26,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": null
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "生物塑料原液" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "加热后变硬形成生物塑料的液体化合物。" //Chinese (Simplified)
     }
 }

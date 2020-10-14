@@ -6,4 +6,12 @@
     "Price": 0, //How much your item sells for.
     "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
     "Recipe": null, //Set to null.
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "沙子" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "由细碎的岩石和矿物颗粒组成的颗粒状材料。用于制作沙壤土。" //Chinese (Simplified)
+    }
 }

@@ -34,5 +34,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 168", "f Demetrius 1500"]
+	},
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "水泵" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "电动的半浸入式水泵，用于抽水。" //Chinese (Simplified)
     }
 }

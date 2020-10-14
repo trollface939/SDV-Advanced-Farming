@@ -40,7 +40,7 @@
             "pt": "Compost Bin", //Portuguese
             "ru": "Compost Bin", //Russian
             "tr": "Compost Bin", //Turkish
-            "zh": "Compost Bin" //Chinese (Simplified)
+            "zh": "堆肥箱" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -54,6 +54,6 @@
             "pt": "A bin for composting biomass into home made fertilizer.", //Portuguese
             "ru": "A bin for composting biomass into home made fertilizer.", //Russian
             "tr": "A bin for composting biomass into home made fertilizer.", //Turkish
-            "zh": "A bin for composting biomass into home made fertilizer." //Chinese (Simplified)
+            "zh": "一个用于将生物质堆肥成自制肥料的桶子。" //Chinese (Simplified)
         }
     }

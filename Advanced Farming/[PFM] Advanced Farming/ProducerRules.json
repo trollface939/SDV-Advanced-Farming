@@ -287,7 +287,7 @@
 		"InputIdentifier": -74, //Any Seeds
 		"ExcludeIdentifiers": ["251", "273", "309", "310", 
 								"311", "628", "629", "630", 
-								"631", "632", "633", "448", 
+								"631", "632", "633", "488", 
 								"473", "481", "433", "487", 
 								"493", "301", "302", "482",
 								"745", "480", "802"],
@@ -333,7 +333,7 @@
 	},
 	{
 		"ProducerName": "Seedling Tray", 
-		"InputIdentifier": 448,
+		"InputIdentifier": 488,
 		"InputStack": 4,
 		"OutputIdentifier": "Eggplant Seedlings",
 		"MinutesUntilReady": 1440,

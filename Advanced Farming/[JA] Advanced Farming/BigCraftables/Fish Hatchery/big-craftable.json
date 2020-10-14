@@ -42,7 +42,7 @@
             "pt": "Fish Hatchery", //Portuguese
             "ru": "Fish Hatchery", //Russian
             "tr": "Fish Hatchery", //Turkish
-            "zh": "Fish Hatchery", //Chinese (Simplified)
+            "zh": "鱼类孵化池", //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -56,6 +56,6 @@
             "pt": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Portuguese
             "ru": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Russian
             "tr": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Turkish
-            "zh": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Chinese (Simplified)
+            "zh": "用于孵化鱼卵的水池。除了鲟鱼外的普通鱼子的孵化率是随机的。需要鱼食。", //Chinese (Simplified)
         }
     }

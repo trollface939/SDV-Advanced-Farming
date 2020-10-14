@@ -18,5 +18,13 @@
 		"PurchaseFrom": "Robin",
 		"PurchasePrice": 5000,
 		"PurchaseRequirements": ["j 168", "f Demetrius 1500"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "水培托盘" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "顶部钻有孔的聚合物托盘，适合植物生长。用于建造水培系统。" //Chinese (Simplified)
     }
 }

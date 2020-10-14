@@ -47,7 +47,7 @@
             "pt": "Large Hydroponics System", //Portuguese
             "ru": "Large Hydroponics System", //Russian
             "tr": "Large Hydroponics System", //Turkish
-            "zh": "Large Hydroponics System" //Chinese (Simplified)
+            "zh": "大型水培系统" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Portuguese
             "ru": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Russian
             "tr": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Turkish
-            "zh": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint." //Chinese (Simplified)
+            "zh": "更大的水培系统，有两组垂直堆叠的托盘。在相同的占地面积上，提高了两倍的耕种能力。" //Chinese (Simplified)
         }
     }

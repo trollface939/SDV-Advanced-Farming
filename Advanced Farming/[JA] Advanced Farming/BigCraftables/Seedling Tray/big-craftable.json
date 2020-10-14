@@ -35,7 +35,7 @@
             "pt": "Seedling Tray", //Portuguese
             "ru": "Seedling Tray", //Russian
             "tr": "Seedling Tray", //Turkish
-            "zh": "Seedling Tray" //Chinese (Simplified)
+            "zh": "育苗盘" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -49,6 +49,6 @@
             "pt": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Portuguese
             "ru": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Russian
             "tr": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Turkish
-            "zh": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth." //Chinese (Simplified)
+            "zh": "垂直堆叠的育苗盘。用于控制植物生长的早期阶段。" //Chinese (Simplified)
         }
     }

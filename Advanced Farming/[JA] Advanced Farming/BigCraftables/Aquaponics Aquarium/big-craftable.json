@@ -47,7 +47,7 @@
             "pt": "Aquaponics Aquarium", //Portuguese
             "ru": "Aquaponics Aquarium", //Russian
             "tr": "Aquaponics Aquarium", //Turkish
-            "zh": "Aquaponics Aquarium" //Chinese (Simplified)
+            "zh": "生态鱼池" //Chinese (Simplified)
         },
         "DescriptionLocalization": //Used for localization. 
         { 
@@ -61,6 +61,6 @@
             "pt": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Portuguese
             "ru": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Russian
             "tr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Turkish
-            "zh": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers." //Chinese (Simplified)
+            "zh": "带有进水口和出水口的养鱼池馆，可在生态循环系统中工作。能饲养多条鱼，这些鱼的废物随后可以精炼成肥料。" //Chinese (Simplified)
         }
     }
