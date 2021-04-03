@@ -21,10 +21,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "エアロポニックスタワー基部", //Japanese
         "zh": "气雾栽培塔基座" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "エアロポニックスタワーの構築に使用されるポリマー製の基部とタンク。", //Japanese
         "zh": "聚合物基座和水罐，用于建造气雾栽培塔。" //Chinese (Simplified)
     }
 }

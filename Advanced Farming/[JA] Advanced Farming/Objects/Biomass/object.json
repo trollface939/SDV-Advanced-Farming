@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "バイオマス", //Japanese
         "zh": "生物质" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "植物や生物由来の有機素材。肥料やバイオ燃料の作成に使用される。", //Japanese
         "zh": "来自动植物的有机物质。用于制造肥料和生物燃料。" //Chinese (Simplified)
     }
 }

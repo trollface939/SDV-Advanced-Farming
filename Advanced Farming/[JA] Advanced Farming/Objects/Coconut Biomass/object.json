@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "ココナッツバイオマス", //Japanese
         "zh": "椰子生物质" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "砕いたココナッツから抽出した有機原料。甘くてトロピカルな香り。グリセロールの作成に使う。", //Japanese
         "zh": "粉碎椰子得到的有机材料。闻起来香甜且带有热带气息。用于生产甘油。" //Chinese (Simplified)
     }
 }

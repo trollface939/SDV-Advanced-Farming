@@ -29,10 +29,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "フレーム部品", //Japanese
         "zh": "框架组件" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "フレームと支持構造を構築するための厚板とネジ。", //Japanese
         "zh": "用于建筑框架和支撑结构的木板和螺钉。" //Chinese (Simplified)
     }
 }

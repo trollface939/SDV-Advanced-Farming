@@ -36,7 +36,7 @@
             "fr": "Compost Bin", //French
             "hu": "Compost Bin", //Hungarian
             "it": "Compost Bin", //Italian
-            "ja": "Compost Bin", //Japanese
+            "ja": "コンポスター", //Japanese
             "pt": "Compost Bin", //Portuguese
             "ru": "Compost Bin", //Russian
             "tr": "Compost Bin", //Turkish
@@ -50,7 +50,7 @@
             "fr": "A bin for composting biomass into home made fertilizer.", //French
             "hu": "A bin for composting biomass into home made fertilizer.", //Hungarian
             "it": "A bin for composting biomass into home made fertilizer.", //Italian
-            "ja": "A bin for composting biomass into home made fertilizer.", //Japanese
+            "ja": "バイオマスを自家製肥料に堆肥化するための容器。", //Japanese
             "pt": "A bin for composting biomass into home made fertilizer.", //Portuguese
             "ru": "A bin for composting biomass into home made fertilizer.", //Russian
             "tr": "A bin for composting biomass into home made fertilizer.", //Turkish

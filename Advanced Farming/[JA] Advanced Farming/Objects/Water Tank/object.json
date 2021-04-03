@@ -25,10 +25,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
-        "zh": "水罐" //Chinese (Simplified)
+        "ja": "水タンク。", //Japanese
+        "zh": "水罐", //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
-        "zh": "圆形金属罐，能够盛装水和其他液体。拥有进出水口可使水连续流动。" //Chinese (Simplified)
+        "ja": "液体を止め置いておくための丸い金属製のタンク。口が二つあるので入水と取水を同時に流すことができる。", //Japanese
+        "zh": "圆形金属罐，能够盛装水和其他液体。拥有进出水口可使水连续流动。", //Chinese (Simplified)
     }
 }

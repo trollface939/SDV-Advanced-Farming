@@ -21,10 +21,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "水耕栽培用トレイ", //Japanese
         "zh": "水培托盘" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "植物に植えるための穴をドリルで開けてあるポリマー製トレイ。水耕栽培システムの構築に使用する。", //Japanese
         "zh": "顶部钻有孔的聚合物托盘，适合植物生长。用于建造水培系统。" //Chinese (Simplified)
     }
 }

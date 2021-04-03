@@ -37,10 +37,12 @@
 	},
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "水パイプ", //Japanese
         "zh": "水泵" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "電動の非浸水式の液体用ポンプ。水を移動させるために使用する。", //Japanese
         "zh": "电动的半浸入式水泵，用于抽水。" //Chinese (Simplified)
     }
 }
