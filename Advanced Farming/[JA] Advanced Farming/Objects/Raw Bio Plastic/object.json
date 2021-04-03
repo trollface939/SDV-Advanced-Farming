@@ -29,10 +29,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "バイオプラスチック原料", //Japanese
         "zh": "生物塑料原液" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "加熱すると硬化してバイオプラスチックになる液体化合物。", //Japanese
         "zh": "加热后变硬形成生物塑料的液体化合物。" //Chinese (Simplified)
     }
 }

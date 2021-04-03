@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "改良バイオマス", //Japanese
         "zh": "混合生物质" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "カルシウムやその他の養分をさらに追加した有機素材。より良い肥料を作るための材料。", //Japanese
         "zh": "加入了钙和其他添加物的有机材料，用于制造更好的材料。" //Chinese (Simplified)
     }
 }

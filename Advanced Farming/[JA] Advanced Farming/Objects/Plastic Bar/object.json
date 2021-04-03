@@ -8,10 +8,12 @@
     "Recipe": null,
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "プラスチックバー", //Japanese
         "zh": "塑料条" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "自家製バイオプラスチックの棒。リサイクル可能で生分解性が容易。加熱して溶かす事でさまざまな形状に再成形できる。", //Japanese
         "zh": "自制的生物塑料条。可回收利用，易于生物降解。能被熔化重新塑型为不同的形状。" //Chinese (Simplified)
     }
 }

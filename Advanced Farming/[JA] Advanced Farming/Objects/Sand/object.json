@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "砂", //Japanese
         "zh": "沙子" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "細かく分割された岩石と鉱物粒子からなる粒状材料。砂質ロームの作成に使用する。", //Japanese
         "zh": "由细碎的岩石和矿物颗粒组成的颗粒状材料。用于制作沙壤土。" //Chinese (Simplified)
     }
 }

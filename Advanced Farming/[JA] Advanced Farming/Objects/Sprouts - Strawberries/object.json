@@ -8,10 +8,12 @@
     "Recipe": null, //Begins the recipe block.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "イチゴの苗袋", //Japanese
         "zh": "草莓幼苗" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "促成栽培で増やした苗がたくさん入った袋。", //Japanese
         "zh": "装满了人工增强的幼苗的袋子。" //Chinese (Simplified)
     }
 }

@@ -21,10 +21,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "エアロポニックスタワーフレーム", //Japanese
         "zh": "气雾栽培塔框架" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "エアロポニックスタワーの構築に使用される、穴が開けられた円筒形のポリマー製フレーム。", //Japanese
         "zh": "圆柱形的聚合物框架，上面钻有孔，用于建造气雾栽培塔。" //Chinese (Simplified)
     }
 }

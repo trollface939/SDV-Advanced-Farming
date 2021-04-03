@@ -25,10 +25,12 @@
     },
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "パイプ", //Japanese
         "zh": "管道" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "耐食性のPVC製パイプ、接手と銅ソケットのセット。任意の形状に組み立てて熱で溶接する。", //Japanese
         "zh": "各种耐腐蚀的PVC管、配件和铜套。可以弯成任何所需的形状然后加热热焊接在一起。" //Chinese (Simplified)
     }
 }

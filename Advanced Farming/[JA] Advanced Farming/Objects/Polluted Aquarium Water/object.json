@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+	"ja": "汚れた水槽水", //Japanese
         "zh": "鱼池污水" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+	"ja": "魚用水槽から抽出された排水。魚の排せつ物、バクテリア、藻類でいっぱい。", //Japanese
         "zh": "从鱼池里提取的污水。充满了鱼类排泄物、细菌和藻类。" //Chinese (Simplified)
     }
 }

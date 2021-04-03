@@ -8,10 +8,12 @@
     "Recipe": null,
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "グリセロール", //Japanese
         "zh": "甘油" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "ココナッツから抽出された単純な糖アルコール化合物。無色無臭な粘性のある液体で、毒性はなく甘みがある。", //Japanese
         "zh": "从椰子中提取的一种简单的多元醇化合物。它是一种无色、无味，粘稠的液体，味甜无毒。" //Chinese (Simplified)
     }
 }

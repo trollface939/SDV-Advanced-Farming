@@ -8,10 +8,12 @@
     "Recipe": null, //Set to null.
     "NameLocalization": //Used for localization. 
     { 
+        "ja": "液体肥料", //Japanese
         "zh": "液体肥料" //Chinese (Simplified)
     },
     "DescriptionLocalization": //Used for localization. 
     { 
+        "ja": "水耕栽培やエアロポニックスシステムで使用する、PH値が調整された水に溶かした特別な肥料。", //Japanese
         "zh": "溶解在水中且酸碱均衡的特制肥料，用于水培和雾气栽培系统。" //Chinese (Simplified)
     }
 }
